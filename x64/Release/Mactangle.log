@@ -1,0 +1,10 @@
+﻿  main.cpp
+  Trwa generowanie kodu
+C:\Users\PTK\Documents\Visual Studio 2019\Projects\Mactangle2\Sources\Map.cpp(204): warning C4715: "Map::getWhereIsGoingPath”: niewszystkie ścieżki kodu zwracają wartość
+C:\Users\PTK\Documents\Visual Studio 2019\Projects\Mactangle2\Sources\Dacler.cpp(167): warning C4715: "Dacler::canDestroy”: niewszystkie ścieżki kodu zwracają wartość
+C:\Users\PTK\Documents\Visual Studio 2019\Projects\Mactangle2\Sources\Bedler.cpp(312): warning C4715: "Bedler::testMactangles”: niewszystkie ścieżki kodu zwracają wartość
+  530 of 532 functions (99.6%) were compiled, the rest were copied from previous compilation.
+    42 functions were new in current compilation
+    2 functions had inline decision re-evaluated but remain unchanged
+  Zakończono generowanie kodu
+  Mactangle.vcxproj -> C:\Users\PTK\Documents\Visual Studio 2019\Projects\Mactangle2\x64\Release\Mactangle.exe

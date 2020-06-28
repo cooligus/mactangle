@@ -1,0 +1,308 @@
+﻿  main.cpp
+C:\Users\G\Documents\Visual Studio 2019\Projects\Mactangle\main.cpp(46,30): warning C4244: "inicjowanie": konwersja z "T" do "float", możliwa utrata danych
+C:\Users\G\Documents\Visual Studio 2019\Projects\Mactangle\main.cpp(46,30): warning C4244:         with
+C:\Users\G\Documents\Visual Studio 2019\Projects\Mactangle\main.cpp(46,30): warning C4244:         [
+C:\Users\G\Documents\Visual Studio 2019\Projects\Mactangle\main.cpp(46,30): warning C4244:             T=unsigned int
+C:\Users\G\Documents\Visual Studio 2019\Projects\Mactangle\main.cpp(46,30): warning C4244:         ]
+C:\Users\G\Documents\Visual Studio 2019\Projects\Mactangle\main.cpp(47,30): warning C4244: "inicjowanie": konwersja z "T" do "float", możliwa utrata danych
+C:\Users\G\Documents\Visual Studio 2019\Projects\Mactangle\main.cpp(47,30): warning C4244:         with
+C:\Users\G\Documents\Visual Studio 2019\Projects\Mactangle\main.cpp(47,30): warning C4244:         [
+C:\Users\G\Documents\Visual Studio 2019\Projects\Mactangle\main.cpp(47,30): warning C4244:             T=unsigned int
+C:\Users\G\Documents\Visual Studio 2019\Projects\Mactangle\main.cpp(47,30): warning C4244:         ]
+C:\Users\G\Documents\Visual Studio 2019\Projects\Mactangle\main.cpp(99,32): warning C4244: "argument": konwersja z "float" do "unsigned int", możliwa utrata danych
+C:\Users\G\Documents\Visual Studio 2019\Projects\Mactangle\main.cpp(106,32): warning C4244: "argument": konwersja z "float" do "unsigned int", możliwa utrata danych
+C:\Users\G\Documents\Visual Studio 2019\Projects\Mactangle\main.cpp(215,38): warning C4244: "=": konwersja z "T" do "int", możliwa utrata danych
+C:\Users\G\Documents\Visual Studio 2019\Projects\Mactangle\main.cpp(215,38): warning C4244:         with
+C:\Users\G\Documents\Visual Studio 2019\Projects\Mactangle\main.cpp(215,38): warning C4244:         [
+C:\Users\G\Documents\Visual Studio 2019\Projects\Mactangle\main.cpp(215,38): warning C4244:             T=float
+C:\Users\G\Documents\Visual Studio 2019\Projects\Mactangle\main.cpp(215,38): warning C4244:         ]
+C:\Users\G\Documents\Visual Studio 2019\Projects\Mactangle\main.cpp(216,38): warning C4244: "=": konwersja z "T" do "int", możliwa utrata danych
+C:\Users\G\Documents\Visual Studio 2019\Projects\Mactangle\main.cpp(216,38): warning C4244:         with
+C:\Users\G\Documents\Visual Studio 2019\Projects\Mactangle\main.cpp(216,38): warning C4244:         [
+C:\Users\G\Documents\Visual Studio 2019\Projects\Mactangle\main.cpp(216,38): warning C4244:             T=float
+C:\Users\G\Documents\Visual Studio 2019\Projects\Mactangle\main.cpp(216,38): warning C4244:         ]
+C:\Users\G\Documents\Visual Studio 2019\Projects\Mactangle\main.cpp(222,54): warning C4244: "argument": konwersja z "int" do "T", możliwa utrata danych
+C:\Users\G\Documents\Visual Studio 2019\Projects\Mactangle\main.cpp(222,54): warning C4244:         with
+C:\Users\G\Documents\Visual Studio 2019\Projects\Mactangle\main.cpp(222,54): warning C4244:         [
+C:\Users\G\Documents\Visual Studio 2019\Projects\Mactangle\main.cpp(222,54): warning C4244:             T=float
+C:\Users\G\Documents\Visual Studio 2019\Projects\Mactangle\main.cpp(222,54): warning C4244:         ]
+C:\Users\G\Documents\Visual Studio 2019\Projects\Mactangle\main.cpp(222,37): warning C4244: "argument": konwersja z "int" do "T", możliwa utrata danych
+C:\Users\G\Documents\Visual Studio 2019\Projects\Mactangle\main.cpp(222,37): warning C4244:         with
+C:\Users\G\Documents\Visual Studio 2019\Projects\Mactangle\main.cpp(222,37): warning C4244:         [
+C:\Users\G\Documents\Visual Studio 2019\Projects\Mactangle\main.cpp(222,37): warning C4244:             T=float
+C:\Users\G\Documents\Visual Studio 2019\Projects\Mactangle\main.cpp(222,37): warning C4244:         ]
+C:\Users\G\Documents\Visual Studio 2019\Projects\Mactangle\main.cpp(232,1): warning C4305: "argument": obcięcie z "double" do "float"
+C:\Users\G\Documents\Visual Studio 2019\Projects\Mactangle\main.cpp(236,21): warning C4018: "<=": niezgodność typu ze znakiem/bez znaku
+C:\Users\G\Documents\Visual Studio 2019\Projects\Mactangle\main.cpp(318,21): warning C4018: "<": niezgodność typu ze znakiem/bez znaku
+C:\Users\G\Documents\Visual Studio 2019\Projects\Mactangle\main.cpp(339,22): warning C4018: "<=": niezgodność typu ze znakiem/bez znaku
+C:\Users\G\Documents\Visual Studio 2019\Projects\Mactangle\main.cpp(367,1): warning C4305: "argument": obcięcie z "double" do "float"
+C:\Users\G\Documents\Visual Studio 2019\Projects\Mactangle\main.cpp(374,32): warning C4244: "argument": konwersja z "float" do "const unsigned int", możliwa utrata danych
+C:\Users\G\Documents\Visual Studio 2019\Projects\Mactangle\main.cpp(376,29): warning C4244: "argument": konwersja z "float" do "const unsigned int", możliwa utrata danych
+C:\Users\G\Documents\Visual Studio 2019\Projects\Mactangle\main.cpp(376,92): warning C4244: "argument": konwersja z "float" do "const unsigned int", możliwa utrata danych
+C:\Users\G\Documents\Visual Studio 2019\Projects\Mactangle\main.cpp(377,29): warning C4244: "argument": konwersja z "float" do "const unsigned int", możliwa utrata danych
+C:\Users\G\Documents\Visual Studio 2019\Projects\Mactangle\main.cpp(377,92): warning C4244: "argument": konwersja z "float" do "const unsigned int", możliwa utrata danych
+C:\Users\G\Documents\Visual Studio 2019\Projects\Mactangle\main.cpp(379,25): warning C4244: "argument": konwersja z "float" do "const unsigned int", możliwa utrata danych
+C:\Users\G\Documents\Visual Studio 2019\Projects\Mactangle\main.cpp(384,30): warning C4244: "argument": konwersja z "float" do "const unsigned int", możliwa utrata danych
+C:\Users\G\Documents\Visual Studio 2019\Projects\Mactangle\main.cpp(391,48): warning C4244: "argument": konwersja z "float" do "const unsigned int", możliwa utrata danych
+C:\Users\G\Documents\Visual Studio 2019\Projects\Mactangle\main.cpp(397,37): warning C4244: "argument": konwersja z "float" do "const unsigned int", możliwa utrata danych
+C:\Users\G\Documents\Visual Studio 2019\Projects\Mactangle\main.cpp(399,29): warning C4244: "argument": konwersja z "float" do "const unsigned int", możliwa utrata danych
+C:\Users\G\Documents\Visual Studio 2019\Projects\Mactangle\main.cpp(399,92): warning C4244: "argument": konwersja z "float" do "const unsigned int", możliwa utrata danych
+C:\Users\G\Documents\Visual Studio 2019\Projects\Mactangle\main.cpp(400,29): warning C4244: "argument": konwersja z "float" do "const unsigned int", możliwa utrata danych
+C:\Users\G\Documents\Visual Studio 2019\Projects\Mactangle\main.cpp(400,92): warning C4244: "argument": konwersja z "float" do "const unsigned int", możliwa utrata danych
+C:\Users\G\Documents\Visual Studio 2019\Projects\Mactangle\main.cpp(402,25): warning C4244: "argument": konwersja z "float" do "const unsigned int", możliwa utrata danych
+C:\Users\G\Documents\Visual Studio 2019\Projects\Mactangle\main.cpp(407,30): warning C4244: "argument": konwersja z "float" do "const unsigned int", możliwa utrata danych
+C:\Users\G\Documents\Visual Studio 2019\Projects\Mactangle\main.cpp(413,48): warning C4244: "argument": konwersja z "float" do "const unsigned int", możliwa utrata danych
+C:\Users\G\Documents\Visual Studio 2019\Projects\Mactangle\main.cpp(456,1): warning C4305: "argument": obcięcie z "double" do "float"
+C:\Users\G\Documents\Visual Studio 2019\Projects\Mactangle\main.cpp(461,1): warning C4305: "argument": obcięcie z "double" do "float"
+C:\Users\G\Documents\Visual Studio 2019\Projects\Mactangle\main.cpp(555,1): warning C4305: "argument": obcięcie z "double" do "float"
+C:\Users\G\Documents\Visual Studio 2019\Projects\Mactangle\main.cpp(630,1): warning C4305: "argument": obcięcie z "double" do "float"
+C:\Users\G\Documents\Visual Studio 2019\Projects\Mactangle\main.cpp(681,26): warning C4305: "inicjowanie": obcięcie z "double" do "float"
+C:\Users\G\Documents\Visual Studio 2019\Projects\Mactangle\main.cpp(682,25): warning C4305: "inicjowanie": obcięcie z "double" do "float"
+C:\Users\G\Documents\Visual Studio 2019\Projects\Mactangle\main.cpp(736,1): warning C4305: "/=": obcięcie z "double" do "float"
+C:\Users\G\Documents\Visual Studio 2019\Projects\Mactangle\main.cpp(740,1): warning C4305: "*=": obcięcie z "double" do "float"
+C:\Users\G\Documents\Visual Studio 2019\Projects\Mactangle\main.cpp(746,1): warning C4305: "argument": obcięcie z "double" do "float"
+C:\Users\G\Documents\Visual Studio 2019\Projects\Mactangle\main.cpp(803,49): warning C4244: "argument": konwersja z "double" do "float", możliwa utrata danych
+C:\Users\G\Documents\Visual Studio 2019\Projects\Mactangle\main.cpp(803,30): warning C4244: "argument": konwersja z "double" do "float", możliwa utrata danych
+C:\Users\G\Documents\Visual Studio 2019\Projects\Mactangle\main.cpp(832,52): warning C4244: "argument": konwersja z "double" do "float", możliwa utrata danych
+C:\Users\G\Documents\Visual Studio 2019\Projects\Mactangle\main.cpp(832,32): warning C4244: "argument": konwersja z "double" do "float", możliwa utrata danych
+C:\Users\G\Documents\Visual Studio 2019\Projects\Mactangle\main.cpp(931,35): warning C4244: "argument": konwersja z "int" do "float", możliwa utrata danych
+C:\Users\G\Documents\Visual Studio 2019\Projects\Mactangle\main.cpp(931,23): warning C4244: "argument": konwersja z "int" do "float", możliwa utrata danych
+C:\Users\G\Documents\Visual Studio 2019\Projects\Mactangle\main.cpp(942,34): warning C4244: "argument": konwersja z "int" do "float", możliwa utrata danych
+C:\Users\G\Documents\Visual Studio 2019\Projects\Mactangle\main.cpp(942,22): warning C4244: "argument": konwersja z "int" do "float", możliwa utrata danych
+C:\Users\G\Documents\Visual Studio 2019\Projects\Mactangle\main.cpp(948,1): warning C4305: "argument": obcięcie z "int" do "bool"
+C:\Users\G\Documents\Visual Studio 2019\Projects\Mactangle\main.cpp(953,32): warning C4244: "argument": konwersja z "int" do "float", możliwa utrata danych
+C:\Users\G\Documents\Visual Studio 2019\Projects\Mactangle\main.cpp(953,20): warning C4244: "argument": konwersja z "int" do "float", możliwa utrata danych
+C:\Users\G\Documents\Visual Studio 2019\Projects\Mactangle\main.cpp(960,33): warning C4244: "argument": konwersja z "int" do "float", możliwa utrata danych
+C:\Users\G\Documents\Visual Studio 2019\Projects\Mactangle\main.cpp(960,21): warning C4244: "argument": konwersja z "int" do "float", możliwa utrata danych
+C:\Users\G\Documents\Visual Studio 2019\Projects\Mactangle\main.cpp(966,1): warning C4305: "argument": obcięcie z "double" do "float"
+C:\Users\G\Documents\Visual Studio 2019\Projects\Mactangle\main.cpp(973,42): warning C4244: "argument": konwersja z "int" do "float", możliwa utrata danych
+C:\Users\G\Documents\Visual Studio 2019\Projects\Mactangle\main.cpp(973,35): warning C4244: "argument": konwersja z "int" do "float", możliwa utrata danych
+C:\Users\G\Documents\Visual Studio 2019\Projects\Mactangle\main.cpp(974,35): warning C4244: "argument": konwersja z "int" do "float", możliwa utrata danych
+C:\Users\G\Documents\Visual Studio 2019\Projects\Mactangle\main.cpp(974,23): warning C4244: "argument": konwersja z "int" do "float", możliwa utrata danych
+C:\Users\G\Documents\Visual Studio 2019\Projects\Mactangle\main.cpp(975,49): warning C4244: "argument": konwersja z "int" do "float", możliwa utrata danych
+C:\Users\G\Documents\Visual Studio 2019\Projects\Mactangle\main.cpp(975,32): warning C4244: "argument": konwersja z "int" do "float", możliwa utrata danych
+C:\Users\G\Documents\Visual Studio 2019\Projects\Mactangle\main.cpp(976,50): warning C4244: "argument": konwersja z "int" do "float", możliwa utrata danych
+C:\Users\G\Documents\Visual Studio 2019\Projects\Mactangle\main.cpp(976,33): warning C4244: "argument": konwersja z "int" do "float", możliwa utrata danych
+C:\Users\G\Documents\Visual Studio 2019\Projects\Mactangle\main.cpp(985,36): warning C4244: "argument": konwersja z "int" do "float", możliwa utrata danych
+C:\Users\G\Documents\Visual Studio 2019\Projects\Mactangle\main.cpp(985,24): warning C4244: "argument": konwersja z "int" do "float", możliwa utrata danych
+C:\Users\G\Documents\Visual Studio 2019\Projects\Mactangle\main.cpp(986,35): warning C4244: "argument": konwersja z "int" do "float", możliwa utrata danych
+C:\Users\G\Documents\Visual Studio 2019\Projects\Mactangle\main.cpp(986,23): warning C4244: "argument": konwersja z "int" do "float", możliwa utrata danych
+C:\Users\G\Documents\Visual Studio 2019\Projects\Mactangle\main.cpp(987,33): warning C4244: "argument": konwersja z "int" do "float", możliwa utrata danych
+C:\Users\G\Documents\Visual Studio 2019\Projects\Mactangle\main.cpp(987,21): warning C4244: "argument": konwersja z "int" do "float", możliwa utrata danych
+C:\Users\G\Documents\Visual Studio 2019\Projects\Mactangle\main.cpp(988,34): warning C4244: "argument": konwersja z "int" do "float", możliwa utrata danych
+C:\Users\G\Documents\Visual Studio 2019\Projects\Mactangle\main.cpp(988,22): warning C4244: "argument": konwersja z "int" do "float", możliwa utrata danych
+C:\Users\G\Documents\Visual Studio 2019\Projects\Mactangle\main.cpp(1007,40): warning C4244: "argument": konwersja z "double" do "float", możliwa utrata danych
+C:\Users\G\Documents\Visual Studio 2019\Projects\Mactangle\main.cpp(1007,26): warning C4244: "argument": konwersja z "double" do "float", możliwa utrata danych
+C:\Users\G\Documents\Visual Studio 2019\Projects\Mactangle\main.cpp(1017,36): warning C4244: "argument": konwersja z "int" do "float", możliwa utrata danych
+C:\Users\G\Documents\Visual Studio 2019\Projects\Mactangle\main.cpp(1017,24): warning C4244: "argument": konwersja z "int" do "float", możliwa utrata danych
+C:\Users\G\Documents\Visual Studio 2019\Projects\Mactangle\main.cpp(1018,35): warning C4244: "argument": konwersja z "int" do "float", możliwa utrata danych
+C:\Users\G\Documents\Visual Studio 2019\Projects\Mactangle\main.cpp(1018,23): warning C4244: "argument": konwersja z "int" do "float", możliwa utrata danych
+C:\Users\G\Documents\Visual Studio 2019\Projects\Mactangle\main.cpp(1019,33): warning C4244: "argument": konwersja z "int" do "float", możliwa utrata danych
+C:\Users\G\Documents\Visual Studio 2019\Projects\Mactangle\main.cpp(1019,21): warning C4244: "argument": konwersja z "int" do "float", możliwa utrata danych
+C:\Users\G\Documents\Visual Studio 2019\Projects\Mactangle\main.cpp(1020,34): warning C4244: "argument": konwersja z "int" do "float", możliwa utrata danych
+C:\Users\G\Documents\Visual Studio 2019\Projects\Mactangle\main.cpp(1020,22): warning C4244: "argument": konwersja z "int" do "float", możliwa utrata danych
+C:\Users\G\Documents\Visual Studio 2019\Projects\Mactangle\main.cpp(1036,1): warning C4305: "argument": obcięcie z "double" do "float"
+C:\Users\G\Documents\Visual Studio 2019\Projects\Mactangle\main.cpp(1076,1): warning C4305: "argument": obcięcie z "double" do "float"
+C:\Users\G\Documents\Visual Studio 2019\Projects\Mactangle\main.cpp(1090,1): warning C4305: "argument": obcięcie z "double" do "float"
+C:\Users\G\Documents\Visual Studio 2019\Projects\Mactangle\main.cpp(1121,33): warning C4018: ">": niezgodność typu ze znakiem/bez znaku
+  PPSaB.cpp
+C:\Users\G\Documents\Visual Studio 2019\Projects\Mactangle\main.cpp(1145,35): warning C4018: ">": niezgodność typu ze znakiem/bez znaku
+C:\Users\G\Documents\Visual Studio 2019\Projects\Mactangle\main.cpp(46,30): warning C4244: "inicjowanie": konwersja z "T" do "float", możliwa utrata danych
+C:\Users\G\Documents\Visual Studio 2019\Projects\Mactangle\main.cpp(46,30): warning C4244:         with
+C:\Users\G\Documents\Visual Studio 2019\Projects\Mactangle\main.cpp(46,30): warning C4244:         [
+C:\Users\G\Documents\Visual Studio 2019\Projects\Mactangle\main.cpp(46,30): warning C4244:             T=unsigned int
+C:\Users\G\Documents\Visual Studio 2019\Projects\Mactangle\main.cpp(46,30): warning C4244:         ]
+C:\Users\G\Documents\Visual Studio 2019\Projects\Mactangle\main.cpp(47,30): warning C4244: "inicjowanie": konwersja z "T" do "float", możliwa utrata danych
+C:\Users\G\Documents\Visual Studio 2019\Projects\Mactangle\main.cpp(47,30): warning C4244:         with
+C:\Users\G\Documents\Visual Studio 2019\Projects\Mactangle\main.cpp(47,30): warning C4244:         [
+C:\Users\G\Documents\Visual Studio 2019\Projects\Mactangle\main.cpp(47,30): warning C4244:             T=unsigned int
+C:\Users\G\Documents\Visual Studio 2019\Projects\Mactangle\main.cpp(47,30): warning C4244:         ]
+C:\Users\G\Documents\Visual Studio 2019\Projects\Mactangle\main.cpp(99,32): warning C4244: "argument": konwersja z "float" do "unsigned int", możliwa utrata danych
+C:\Users\G\Documents\Visual Studio 2019\Projects\Mactangle\main.cpp(106,32): warning C4244: "argument": konwersja z "float" do "unsigned int", możliwa utrata danych
+C:\Users\G\Documents\Visual Studio 2019\Projects\Mactangle\main.cpp(215,38): warning C4244: "=": konwersja z "T" do "int", możliwa utrata danych
+C:\Users\G\Documents\Visual Studio 2019\Projects\Mactangle\main.cpp(215,38): warning C4244:         with
+C:\Users\G\Documents\Visual Studio 2019\Projects\Mactangle\main.cpp(215,38): warning C4244:         [
+C:\Users\G\Documents\Visual Studio 2019\Projects\Mactangle\main.cpp(215,38): warning C4244:             T=float
+C:\Users\G\Documents\Visual Studio 2019\Projects\Mactangle\main.cpp(215,38): warning C4244:         ]
+C:\Users\G\Documents\Visual Studio 2019\Projects\Mactangle\main.cpp(216,38): warning C4244: "=": konwersja z "T" do "int", możliwa utrata danych
+C:\Users\G\Documents\Visual Studio 2019\Projects\Mactangle\main.cpp(216,38): warning C4244:         with
+C:\Users\G\Documents\Visual Studio 2019\Projects\Mactangle\main.cpp(216,38): warning C4244:         [
+C:\Users\G\Documents\Visual Studio 2019\Projects\Mactangle\main.cpp(216,38): warning C4244:             T=float
+C:\Users\G\Documents\Visual Studio 2019\Projects\Mactangle\main.cpp(216,38): warning C4244:         ]
+C:\Users\G\Documents\Visual Studio 2019\Projects\Mactangle\main.cpp(222,54): warning C4244: "argument": konwersja z "int" do "T", możliwa utrata danych
+C:\Users\G\Documents\Visual Studio 2019\Projects\Mactangle\main.cpp(222,54): warning C4244:         with
+C:\Users\G\Documents\Visual Studio 2019\Projects\Mactangle\main.cpp(222,54): warning C4244:         [
+C:\Users\G\Documents\Visual Studio 2019\Projects\Mactangle\main.cpp(222,54): warning C4244:             T=float
+C:\Users\G\Documents\Visual Studio 2019\Projects\Mactangle\main.cpp(222,54): warning C4244:         ]
+C:\Users\G\Documents\Visual Studio 2019\Projects\Mactangle\main.cpp(222,37): warning C4244: "argument": konwersja z "int" do "T", możliwa utrata danych
+C:\Users\G\Documents\Visual Studio 2019\Projects\Mactangle\main.cpp(222,37): warning C4244:         with
+C:\Users\G\Documents\Visual Studio 2019\Projects\Mactangle\main.cpp(222,37): warning C4244:         [
+C:\Users\G\Documents\Visual Studio 2019\Projects\Mactangle\main.cpp(222,37): warning C4244:             T=float
+C:\Users\G\Documents\Visual Studio 2019\Projects\Mactangle\main.cpp(222,37): warning C4244:         ]
+C:\Users\G\Documents\Visual Studio 2019\Projects\Mactangle\main.cpp(232,1): warning C4305: "argument": obcięcie z "double" do "float"
+C:\Users\G\Documents\Visual Studio 2019\Projects\Mactangle\main.cpp(236,21): warning C4018: "<=": niezgodność typu ze znakiem/bez znaku
+C:\Users\G\Documents\Visual Studio 2019\Projects\Mactangle\main.cpp(318,21): warning C4018: "<": niezgodność typu ze znakiem/bez znaku
+C:\Users\G\Documents\Visual Studio 2019\Projects\Mactangle\main.cpp(339,22): warning C4018: "<=": niezgodność typu ze znakiem/bez znaku
+C:\Users\G\Documents\Visual Studio 2019\Projects\Mactangle\main.cpp(367,1): warning C4305: "argument": obcięcie z "double" do "float"
+C:\Users\G\Documents\Visual Studio 2019\Projects\Mactangle\main.cpp(374,32): warning C4244: "argument": konwersja z "float" do "const unsigned int", możliwa utrata danych
+C:\Users\G\Documents\Visual Studio 2019\Projects\Mactangle\main.cpp(376,29): warning C4244: "argument": konwersja z "float" do "const unsigned int", możliwa utrata danych
+C:\Users\G\Documents\Visual Studio 2019\Projects\Mactangle\main.cpp(376,92): warning C4244: "argument": konwersja z "float" do "const unsigned int", możliwa utrata danych
+C:\Users\G\Documents\Visual Studio 2019\Projects\Mactangle\main.cpp(377,29): warning C4244: "argument": konwersja z "float" do "const unsigned int", możliwa utrata danych
+C:\Users\G\Documents\Visual Studio 2019\Projects\Mactangle\main.cpp(377,92): warning C4244: "argument": konwersja z "float" do "const unsigned int", możliwa utrata danych
+C:\Users\G\Documents\Visual Studio 2019\Projects\Mactangle\main.cpp(379,25): warning C4244: "argument": konwersja z "float" do "const unsigned int", możliwa utrata danych
+C:\Users\G\Documents\Visual Studio 2019\Projects\Mactangle\main.cpp(384,30): warning C4244: "argument": konwersja z "float" do "const unsigned int", możliwa utrata danych
+C:\Users\G\Documents\Visual Studio 2019\Projects\Mactangle\main.cpp(391,48): warning C4244: "argument": konwersja z "float" do "const unsigned int", możliwa utrata danych
+C:\Users\G\Documents\Visual Studio 2019\Projects\Mactangle\main.cpp(397,37): warning C4244: "argument": konwersja z "float" do "const unsigned int", możliwa utrata danych
+C:\Users\G\Documents\Visual Studio 2019\Projects\Mactangle\main.cpp(399,29): warning C4244: "argument": konwersja z "float" do "const unsigned int", możliwa utrata danych
+C:\Users\G\Documents\Visual Studio 2019\Projects\Mactangle\main.cpp(399,92): warning C4244: "argument": konwersja z "float" do "const unsigned int", możliwa utrata danych
+C:\Users\G\Documents\Visual Studio 2019\Projects\Mactangle\main.cpp(400,29): warning C4244: "argument": konwersja z "float" do "const unsigned int", możliwa utrata danych
+C:\Users\G\Documents\Visual Studio 2019\Projects\Mactangle\main.cpp(400,92): warning C4244: "argument": konwersja z "float" do "const unsigned int", możliwa utrata danych
+C:\Users\G\Documents\Visual Studio 2019\Projects\Mactangle\main.cpp(402,25): warning C4244: "argument": konwersja z "float" do "const unsigned int", możliwa utrata danych
+C:\Users\G\Documents\Visual Studio 2019\Projects\Mactangle\main.cpp(407,30): warning C4244: "argument": konwersja z "float" do "const unsigned int", możliwa utrata danych
+C:\Users\G\Documents\Visual Studio 2019\Projects\Mactangle\main.cpp(413,48): warning C4244: "argument": konwersja z "float" do "const unsigned int", możliwa utrata danych
+C:\Users\G\Documents\Visual Studio 2019\Projects\Mactangle\main.cpp(456,1): warning C4305: "argument": obcięcie z "double" do "float"
+C:\Users\G\Documents\Visual Studio 2019\Projects\Mactangle\main.cpp(461,1): warning C4305: "argument": obcięcie z "double" do "float"
+C:\Users\G\Documents\Visual Studio 2019\Projects\Mactangle\main.cpp(555,1): warning C4305: "argument": obcięcie z "double" do "float"
+C:\Users\G\Documents\Visual Studio 2019\Projects\Mactangle\main.cpp(630,1): warning C4305: "argument": obcięcie z "double" do "float"
+C:\Users\G\Documents\Visual Studio 2019\Projects\Mactangle\main.cpp(681,26): warning C4305: "inicjowanie": obcięcie z "double" do "float"
+C:\Users\G\Documents\Visual Studio 2019\Projects\Mactangle\main.cpp(682,25): warning C4305: "inicjowanie": obcięcie z "double" do "float"
+C:\Users\G\Documents\Visual Studio 2019\Projects\Mactangle\main.cpp(736,1): warning C4305: "/=": obcięcie z "double" do "float"
+C:\Users\G\Documents\Visual Studio 2019\Projects\Mactangle\main.cpp(740,1): warning C4305: "*=": obcięcie z "double" do "float"
+C:\Users\G\Documents\Visual Studio 2019\Projects\Mactangle\main.cpp(746,1): warning C4305: "argument": obcięcie z "double" do "float"
+C:\Users\G\Documents\Visual Studio 2019\Projects\Mactangle\main.cpp(803,49): warning C4244: "argument": konwersja z "double" do "float", możliwa utrata danych
+C:\Users\G\Documents\Visual Studio 2019\Projects\Mactangle\main.cpp(803,30): warning C4244: "argument": konwersja z "double" do "float", możliwa utrata danych
+C:\Users\G\Documents\Visual Studio 2019\Projects\Mactangle\main.cpp(832,52): warning C4244: "argument": konwersja z "double" do "float", możliwa utrata danych
+C:\Users\G\Documents\Visual Studio 2019\Projects\Mactangle\main.cpp(832,32): warning C4244: "argument": konwersja z "double" do "float", możliwa utrata danych
+C:\Users\G\Documents\Visual Studio 2019\Projects\Mactangle\main.cpp(931,35): warning C4244: "argument": konwersja z "int" do "float", możliwa utrata danych
+C:\Users\G\Documents\Visual Studio 2019\Projects\Mactangle\main.cpp(931,23): warning C4244: "argument": konwersja z "int" do "float", możliwa utrata danych
+C:\Users\G\Documents\Visual Studio 2019\Projects\Mactangle\main.cpp(942,34): warning C4244: "argument": konwersja z "int" do "float", możliwa utrata danych
+C:\Users\G\Documents\Visual Studio 2019\Projects\Mactangle\main.cpp(942,22): warning C4244: "argument": konwersja z "int" do "float", możliwa utrata danych
+C:\Users\G\Documents\Visual Studio 2019\Projects\Mactangle\main.cpp(948,1): warning C4305: "argument": obcięcie z "int" do "bool"
+C:\Users\G\Documents\Visual Studio 2019\Projects\Mactangle\main.cpp(953,32): warning C4244: "argument": konwersja z "int" do "float", możliwa utrata danych
+C:\Users\G\Documents\Visual Studio 2019\Projects\Mactangle\main.cpp(953,20): warning C4244: "argument": konwersja z "int" do "float", możliwa utrata danych
+C:\Users\G\Documents\Visual Studio 2019\Projects\Mactangle\main.cpp(960,33): warning C4244: "argument": konwersja z "int" do "float", możliwa utrata danych
+C:\Users\G\Documents\Visual Studio 2019\Projects\Mactangle\main.cpp(960,21): warning C4244: "argument": konwersja z "int" do "float", możliwa utrata danych
+C:\Users\G\Documents\Visual Studio 2019\Projects\Mactangle\main.cpp(966,1): warning C4305: "argument": obcięcie z "double" do "float"
+C:\Users\G\Documents\Visual Studio 2019\Projects\Mactangle\main.cpp(973,42): warning C4244: "argument": konwersja z "int" do "float", możliwa utrata danych
+C:\Users\G\Documents\Visual Studio 2019\Projects\Mactangle\main.cpp(973,35): warning C4244: "argument": konwersja z "int" do "float", możliwa utrata danych
+C:\Users\G\Documents\Visual Studio 2019\Projects\Mactangle\main.cpp(974,35): warning C4244: "argument": konwersja z "int" do "float", możliwa utrata danych
+C:\Users\G\Documents\Visual Studio 2019\Projects\Mactangle\main.cpp(974,23): warning C4244: "argument": konwersja z "int" do "float", możliwa utrata danych
+C:\Users\G\Documents\Visual Studio 2019\Projects\Mactangle\main.cpp(975,49): warning C4244: "argument": konwersja z "int" do "float", możliwa utrata danych
+C:\Users\G\Documents\Visual Studio 2019\Projects\Mactangle\main.cpp(975,32): warning C4244: "argument": konwersja z "int" do "float", możliwa utrata danych
+C:\Users\G\Documents\Visual Studio 2019\Projects\Mactangle\main.cpp(976,50): warning C4244: "argument": konwersja z "int" do "float", możliwa utrata danych
+C:\Users\G\Documents\Visual Studio 2019\Projects\Mactangle\main.cpp(976,33): warning C4244: "argument": konwersja z "int" do "float", możliwa utrata danych
+C:\Users\G\Documents\Visual Studio 2019\Projects\Mactangle\main.cpp(985,36): warning C4244: "argument": konwersja z "int" do "float", możliwa utrata danych
+C:\Users\G\Documents\Visual Studio 2019\Projects\Mactangle\main.cpp(985,24): warning C4244: "argument": konwersja z "int" do "float", możliwa utrata danych
+C:\Users\G\Documents\Visual Studio 2019\Projects\Mactangle\main.cpp(986,35): warning C4244: "argument": konwersja z "int" do "float", możliwa utrata danych
+C:\Users\G\Documents\Visual Studio 2019\Projects\Mactangle\main.cpp(986,23): warning C4244: "argument": konwersja z "int" do "float", możliwa utrata danych
+C:\Users\G\Documents\Visual Studio 2019\Projects\Mactangle\main.cpp(987,33): warning C4244: "argument": konwersja z "int" do "float", możliwa utrata danych
+C:\Users\G\Documents\Visual Studio 2019\Projects\Mactangle\main.cpp(987,21): warning C4244: "argument": konwersja z "int" do "float", możliwa utrata danych
+C:\Users\G\Documents\Visual Studio 2019\Projects\Mactangle\main.cpp(988,34): warning C4244: "argument": konwersja z "int" do "float", możliwa utrata danych
+C:\Users\G\Documents\Visual Studio 2019\Projects\Mactangle\main.cpp(988,22): warning C4244: "argument": konwersja z "int" do "float", możliwa utrata danych
+C:\Users\G\Documents\Visual Studio 2019\Projects\Mactangle\main.cpp(1007,40): warning C4244: "argument": konwersja z "double" do "float", możliwa utrata danych
+C:\Users\G\Documents\Visual Studio 2019\Projects\Mactangle\main.cpp(1007,26): warning C4244: "argument": konwersja z "double" do "float", możliwa utrata danych
+C:\Users\G\Documents\Visual Studio 2019\Projects\Mactangle\main.cpp(1017,36): warning C4244: "argument": konwersja z "int" do "float", możliwa utrata danych
+C:\Users\G\Documents\Visual Studio 2019\Projects\Mactangle\main.cpp(1017,24): warning C4244: "argument": konwersja z "int" do "float", możliwa utrata danych
+C:\Users\G\Documents\Visual Studio 2019\Projects\Mactangle\main.cpp(1018,35): warning C4244: "argument": konwersja z "int" do "float", możliwa utrata danych
+C:\Users\G\Documents\Visual Studio 2019\Projects\Mactangle\main.cpp(1018,23): warning C4244: "argument": konwersja z "int" do "float", możliwa utrata danych
+C:\Users\G\Documents\Visual Studio 2019\Projects\Mactangle\main.cpp(1019,33): warning C4244: "argument": konwersja z "int" do "float", możliwa utrata danych
+C:\Users\G\Documents\Visual Studio 2019\Projects\Mactangle\main.cpp(1019,21): warning C4244: "argument": konwersja z "int" do "float", możliwa utrata danych
+C:\Users\G\Documents\Visual Studio 2019\Projects\Mactangle\main.cpp(1020,34): warning C4244: "argument": konwersja z "int" do "float", możliwa utrata danych
+C:\Users\G\Documents\Visual Studio 2019\Projects\Mactangle\main.cpp(1020,22): warning C4244: "argument": konwersja z "int" do "float", możliwa utrata danych
+C:\Users\G\Documents\Visual Studio 2019\Projects\Mactangle\main.cpp(1036,1): warning C4305: "argument": obcięcie z "double" do "float"
+C:\Users\G\Documents\Visual Studio 2019\Projects\Mactangle\main.cpp(1076,1): warning C4305: "argument": obcięcie z "double" do "float"
+C:\Users\G\Documents\Visual Studio 2019\Projects\Mactangle\main.cpp(1090,1): warning C4305: "argument": obcięcie z "double" do "float"
+C:\Users\G\Documents\Visual Studio 2019\Projects\Mactangle\main.cpp(1121,33): warning C4018: ">": niezgodność typu ze znakiem/bez znaku
+C:\Users\G\Documents\Visual Studio 2019\Projects\Mactangle\main.cpp(1145,35): warning C4018: ">": niezgodność typu ze znakiem/bez znaku
+C:\Users\G\Documents\Visual Studio 2019\Projects\Mactangle\PPSaB.cpp(39,18): warning C4244: "=": konwersja z "float" do "int", możliwa utrata danych
+C:\Users\G\Documents\Visual Studio 2019\Projects\Mactangle\PPSaB.cpp(40,18): warning C4244: "=": konwersja z "float" do "int", możliwa utrata danych
+C:\Users\G\Documents\Visual Studio 2019\Projects\Mactangle\PPSaB.cpp(48,18): warning C4244: "=": konwersja z "float" do "int", możliwa utrata danych
+C:\Users\G\Documents\Visual Studio 2019\Projects\Mactangle\PPSaB.cpp(49,18): warning C4244: "=": konwersja z "float" do "int", możliwa utrata danych
+C:\Users\G\Documents\Visual Studio 2019\Projects\Mactangle\PPSaB.cpp(56,24): warning C4244: "inicjowanie": konwersja z "T" do "int", możliwa utrata danych
+C:\Users\G\Documents\Visual Studio 2019\Projects\Mactangle\PPSaB.cpp(56,24): warning C4244:         with
+C:\Users\G\Documents\Visual Studio 2019\Projects\Mactangle\PPSaB.cpp(56,24): warning C4244:         [
+C:\Users\G\Documents\Visual Studio 2019\Projects\Mactangle\PPSaB.cpp(56,24): warning C4244:             T=float
+C:\Users\G\Documents\Visual Studio 2019\Projects\Mactangle\PPSaB.cpp(56,24): warning C4244:         ]
+C:\Users\G\Documents\Visual Studio 2019\Projects\Mactangle\PPSaB.cpp(57,22): warning C4244: "inicjowanie": konwersja z "T" do "int", możliwa utrata danych
+C:\Users\G\Documents\Visual Studio 2019\Projects\Mactangle\PPSaB.cpp(57,22): warning C4244:         with
+C:\Users\G\Documents\Visual Studio 2019\Projects\Mactangle\PPSaB.cpp(57,22): warning C4244:         [
+C:\Users\G\Documents\Visual Studio 2019\Projects\Mactangle\PPSaB.cpp(57,22): warning C4244:             T=float
+C:\Users\G\Documents\Visual Studio 2019\Projects\Mactangle\PPSaB.cpp(57,22): warning C4244:         ]
+C:\Users\G\Documents\Visual Studio 2019\Projects\Mactangle\PPSaB.cpp(58,25): warning C4244: "inicjowanie": konwersja z "T" do "int", możliwa utrata danych
+C:\Users\G\Documents\Visual Studio 2019\Projects\Mactangle\PPSaB.cpp(58,25): warning C4244:         with
+C:\Users\G\Documents\Visual Studio 2019\Projects\Mactangle\PPSaB.cpp(58,25): warning C4244:         [
+C:\Users\G\Documents\Visual Studio 2019\Projects\Mactangle\PPSaB.cpp(58,25): warning C4244:             T=float
+C:\Users\G\Documents\Visual Studio 2019\Projects\Mactangle\PPSaB.cpp(58,25): warning C4244:         ]
+C:\Users\G\Documents\Visual Studio 2019\Projects\Mactangle\PPSaB.cpp(59,24): warning C4244: "inicjowanie": konwersja z "T" do "int", możliwa utrata danych
+C:\Users\G\Documents\Visual Studio 2019\Projects\Mactangle\PPSaB.cpp(59,24): warning C4244:         with
+C:\Users\G\Documents\Visual Studio 2019\Projects\Mactangle\PPSaB.cpp(59,24): warning C4244:         [
+C:\Users\G\Documents\Visual Studio 2019\Projects\Mactangle\PPSaB.cpp(59,24): warning C4244:             T=float
+C:\Users\G\Documents\Visual Studio 2019\Projects\Mactangle\PPSaB.cpp(59,24): warning C4244:         ]
+C:\Users\G\Documents\Visual Studio 2019\Projects\Mactangle\PPSaB.cpp(170,59): warning C4244: "=": konwersja z "double" do "T", możliwa utrata danych
+C:\Users\G\Documents\Visual Studio 2019\Projects\Mactangle\PPSaB.cpp(170,59): warning C4244:         with
+C:\Users\G\Documents\Visual Studio 2019\Projects\Mactangle\PPSaB.cpp(170,59): warning C4244:         [
+C:\Users\G\Documents\Visual Studio 2019\Projects\Mactangle\PPSaB.cpp(170,59): warning C4244:             T=float
+C:\Users\G\Documents\Visual Studio 2019\Projects\Mactangle\PPSaB.cpp(170,59): warning C4244:         ]
+C:\Users\G\Documents\Visual Studio 2019\Projects\Mactangle\PPSaB.cpp(171,59): warning C4244: "=": konwersja z "double" do "T", możliwa utrata danych
+C:\Users\G\Documents\Visual Studio 2019\Projects\Mactangle\PPSaB.cpp(171,59): warning C4244:         with
+C:\Users\G\Documents\Visual Studio 2019\Projects\Mactangle\PPSaB.cpp(171,59): warning C4244:         [
+C:\Users\G\Documents\Visual Studio 2019\Projects\Mactangle\PPSaB.cpp(171,59): warning C4244:             T=float
+C:\Users\G\Documents\Visual Studio 2019\Projects\Mactangle\PPSaB.cpp(171,59): warning C4244:         ]
+C:\Users\G\Documents\Visual Studio 2019\Projects\Mactangle\PPSaB.cpp(176,59): warning C4244: "=": konwersja z "double" do "T", możliwa utrata danych
+C:\Users\G\Documents\Visual Studio 2019\Projects\Mactangle\PPSaB.cpp(176,59): warning C4244:         with
+C:\Users\G\Documents\Visual Studio 2019\Projects\Mactangle\PPSaB.cpp(176,59): warning C4244:         [
+C:\Users\G\Documents\Visual Studio 2019\Projects\Mactangle\PPSaB.cpp(176,59): warning C4244:             T=float
+C:\Users\G\Documents\Visual Studio 2019\Projects\Mactangle\PPSaB.cpp(176,59): warning C4244:         ]
+C:\Users\G\Documents\Visual Studio 2019\Projects\Mactangle\PPSaB.cpp(177,59): warning C4244: "=": konwersja z "double" do "T", możliwa utrata danych
+C:\Users\G\Documents\Visual Studio 2019\Projects\Mactangle\PPSaB.cpp(177,59): warning C4244:         with
+C:\Users\G\Documents\Visual Studio 2019\Projects\Mactangle\PPSaB.cpp(177,59): warning C4244:         [
+C:\Users\G\Documents\Visual Studio 2019\Projects\Mactangle\PPSaB.cpp(177,59): warning C4244:             T=float
+C:\Users\G\Documents\Visual Studio 2019\Projects\Mactangle\PPSaB.cpp(177,59): warning C4244:         ]
+C:\Users\G\Documents\Visual Studio 2019\Projects\Mactangle\PPSaB.cpp(182,59): warning C4244: "=": konwersja z "double" do "T", możliwa utrata danych
+C:\Users\G\Documents\Visual Studio 2019\Projects\Mactangle\PPSaB.cpp(182,59): warning C4244:         with
+C:\Users\G\Documents\Visual Studio 2019\Projects\Mactangle\PPSaB.cpp(182,59): warning C4244:         [
+C:\Users\G\Documents\Visual Studio 2019\Projects\Mactangle\PPSaB.cpp(182,59): warning C4244:             T=float
+C:\Users\G\Documents\Visual Studio 2019\Projects\Mactangle\PPSaB.cpp(182,59): warning C4244:         ]
+C:\Users\G\Documents\Visual Studio 2019\Projects\Mactangle\PPSaB.cpp(183,59): warning C4244: "=": konwersja z "double" do "T", możliwa utrata danych
+C:\Users\G\Documents\Visual Studio 2019\Projects\Mactangle\PPSaB.cpp(183,59): warning C4244:         with
+C:\Users\G\Documents\Visual Studio 2019\Projects\Mactangle\PPSaB.cpp(183,59): warning C4244:         [
+C:\Users\G\Documents\Visual Studio 2019\Projects\Mactangle\PPSaB.cpp(183,59): warning C4244:             T=float
+C:\Users\G\Documents\Visual Studio 2019\Projects\Mactangle\PPSaB.cpp(183,59): warning C4244:         ]
+C:\Users\G\Documents\Visual Studio 2019\Projects\Mactangle\PPSaB.cpp(188,59): warning C4244: "=": konwersja z "double" do "T", możliwa utrata danych
+C:\Users\G\Documents\Visual Studio 2019\Projects\Mactangle\PPSaB.cpp(188,59): warning C4244:         with
+C:\Users\G\Documents\Visual Studio 2019\Projects\Mactangle\PPSaB.cpp(188,59): warning C4244:         [
+C:\Users\G\Documents\Visual Studio 2019\Projects\Mactangle\PPSaB.cpp(188,59): warning C4244:             T=float
+C:\Users\G\Documents\Visual Studio 2019\Projects\Mactangle\PPSaB.cpp(188,59): warning C4244:         ]
+  Generowanie kodu...
+C:\Users\G\Documents\Visual Studio 2019\Projects\Mactangle\PPSaB.cpp(189,59): warning C4244: "=": konwersja z "double" do "T", możliwa utrata danych
+C:\Users\G\Documents\Visual Studio 2019\Projects\Mactangle\PPSaB.cpp(189,59): warning C4244:         with
+C:\Users\G\Documents\Visual Studio 2019\Projects\Mactangle\PPSaB.cpp(189,59): warning C4244:         [
+C:\Users\G\Documents\Visual Studio 2019\Projects\Mactangle\PPSaB.cpp(189,59): warning C4244:             T=float
+C:\Users\G\Documents\Visual Studio 2019\Projects\Mactangle\PPSaB.cpp(189,59): warning C4244:         ]
+PPSaB.obj : error LNK2005: Element "void __cdecl WindowClose(void)" (?WindowClose@@YAXXZ) jest już zdefiniowany w elemencie main.obj
+PPSaB.obj : error LNK2005: Element "void __cdecl WindowConfigure(void)" (?WindowConfigure@@YAXXZ) jest już zdefiniowany w elemencie main.obj
+PPSaB.obj : error LNK2005: Element "void __cdecl WindowDoEvents(void)" (?WindowDoEvents@@YAXXZ) jest już zdefiniowany w elemencie main.obj
+PPSaB.obj : error LNK2005: Element "void __cdecl WindowDraw(void)" (?WindowDraw@@YAXXZ) jest już zdefiniowany w elemencie main.obj
+PPSaB.obj : error LNK2005: Element _main jest już zdefiniowany w elemencie main.obj
+PPSaB.obj : error LNK2005: Element "class sf::Event event" (?event@@3VEvent@sf@@A) jest już zdefiniowany w elemencie main.obj
+PPSaB.obj : error LNK2005: Element "float paths_corner" (?paths_corner@@3MA) jest już zdefiniowany w elemencie main.obj
+PPSaB.obj : error LNK2005: Element "float window_size_x" (?window_size_x@@3MA) jest już zdefiniowany w elemencie main.obj
+PPSaB.obj : error LNK2005: Element "float window_size_y" (?window_size_y@@3MA) jest już zdefiniowany w elemencie main.obj
+PPSaB.obj : error LNK2005: Element "bool game_started" (?game_started@@3_NA) jest już zdefiniowany w elemencie main.obj
+PPSaB.obj : error LNK2005: Element "class sf::RenderWindow window" (?window@@3VRenderWindow@sf@@A) jest już zdefiniowany w elemencie main.obj
+PPSaB.obj : error LNK2005: Element "class sf::View camera" (?camera@@3VView@sf@@A) jest już zdefiniowany w elemencie main.obj
+PPSaB.obj : error LNK2005: Element "class sf::Font game_font" (?game_font@@3VFont@sf@@A) jest już zdefiniowany w elemencie main.obj
+PPSaB.obj : error LNK2005: Element "class sf::Texture macler_texture" (?macler_texture@@3VTexture@sf@@A) jest już zdefiniowany w elemencie main.obj
+PPSaB.obj : error LNK2005: Element "class sf::Vector2<float> * main_positions" (?main_positions@@3PAV?$Vector2@M@sf@@A) jest już zdefiniowany w elemencie main.obj
+PPSaB.obj : error LNK2005: Element "class std::vector<int,class std::allocator<int> > mactangles_steps_counter" (?mactangles_steps_counter@@3V?$vector@HV?$allocator@H@std@@@std@@A) jest już zdefiniowany w elemencie main.obj
+PPSaB.obj : error LNK2005: Element "class std::vector<char,class std::allocator<char> > mactangles_direction" (?mactangles_direction@@3V?$vector@DV?$allocator@D@std@@@std@@A) jest już zdefiniowany w elemencie main.obj
+PPSaB.obj : error LNK2005: Element "class std::vector<char,class std::allocator<char> > mactangles_axle" (?mactangles_axle@@3V?$vector@DV?$allocator@D@std@@@std@@A) jest już zdefiniowany w elemencie main.obj
+PPSaB.obj : error LNK2005: Element "class Map mapp" (?mapp@@3VMap@@A) jest już zdefiniowany w elemencie main.obj
+PPSaB.obj : error LNK2005: Element "class std::vector<class Macler,class std::allocator<class Macler> > maclers" (?maclers@@3V?$vector@VMacler@@V?$allocator@VMacler@@@std@@@std@@A) jest już zdefiniowany w elemencie main.obj
+PPSaB.obj : error LNK2005: Element "class Shop shopp" (?shopp@@3VShop@@A) jest już zdefiniowany w elemencie main.obj
+PPSaB.obj : error LNK2005: Element "class Addidtionals addition" (?addition@@3VAddidtionals@@A) jest już zdefiniowany w elemencie main.obj
+PPSaB.obj : error LNK2005: Element "class Mactangle mactangle" (?mactangle@@3VMactangle@@A) jest już zdefiniowany w elemencie main.obj
+PPSaB.obj : error LNK2005: Element "class Macler macler" (?macler@@3VMacler@@A) jest już zdefiniowany w elemencie main.obj
+PPSaB.obj : error LNK2005: Element "class Offert offfert" (?offfert@@3VOffert@@A) jest już zdefiniowany w elemencie main.obj
+PPSaB.obj : error LNK2005: Element "class Money money" (?money@@3VMoney@@A) jest już zdefiniowany w elemencie main.obj
+sfml-graphics.lib(sfml-graphics-2.dll) : fatal error LNK1112: wystąpił konflikt typu maszyny modułu „x64” z typem maszyny docelowej „x86”
