@@ -38,6 +38,7 @@ Store path, map
 ## Variables
 - 
 ----------
+# Paper link
 
-Paper link: [+Mactangle](https://paper.dropbox.com/doc/Mactangle-x4KMLIYbxsKgOgiTDDxIM) 
+https://www.dropbox.com/scl/fi/n8k3i6gtv7c1vhgzs0m56/Mactangle.paper?dl=0&rlkey=uo2u6cte5u4qyk6ngkhf67y0o 
 

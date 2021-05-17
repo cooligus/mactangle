@@ -24,7 +24,7 @@ Project is created with:
 * [JSON](https://github.com/nlohmann/json/)
 	
 ## TODO:
-* A lot
+* A lot [See documentation](Documentation.md)
 
 ## Status
 Project is in progress cause I still have some stuffs to do (see at TODO).
