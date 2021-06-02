@@ -2,7 +2,7 @@
 There you will have to defend the END OF PATH from deadly squares that have mathematicals operations on them.
 
 ### Version
-1.1
+1.1.1
 
 ## Table of contents
 * [General info](#general-info)
@@ -20,6 +20,7 @@ From start of path get out squares that if they reach end of path take you a hea
 
 ## Technologies
 Project is created with:
+* [CMake](https://cmake.org/)
 * [SFML](https://www.sfml-dev.org/)
 * [JSON](https://github.com/nlohmann/json/)
 	
