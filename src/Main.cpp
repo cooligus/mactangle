@@ -1,6 +1,6 @@
 #include <iostream>
-//#include "Game.h"
-#include "Path.h"
+//#include "game.h"
+#include "path.h"
 
 int main()
 {

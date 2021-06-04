@@ -116,10 +116,10 @@ message(${TEXTURES_DIR})
 
 # Add source to executable
 add_executable (Mactangle
-				"${SOURCE_DIR}/Game.cpp"
-				"${SOURCE_DIR}/Main.cpp"
-				"${SOURCE_DIR}/Map.cpp"
-				"${SOURCE_DIR}/Path.cpp"
+				"${SOURCE_DIR}/game.cpp"
+				"${SOURCE_DIR}/main.cpp"
+				"${SOURCE_DIR}/map.cpp"
+				"${SOURCE_DIR}/path.cpp"
 				"${RESOURCES_DIR}/icon/icon.rc"
 				  )
 

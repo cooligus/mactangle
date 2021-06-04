@@ -1,5 +1,5 @@
 #include <fstream>
-#include "Path.h"
+#include "path.h"
 #include <nlohmann/json.hpp>
 #include <iostream>
 #include <ctype.h>

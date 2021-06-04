@@ -1,4 +1,4 @@
-#include "Map.h"
+#include "map.h"
 
 Map::Map(std::string pathPath, std::string texturePath)
 	:m_path(pathPath), m_texture()

@@ -1,4 +1,4 @@
-#include "Path.h"
+#include "path.h"
 #include <SFML/Graphics.hpp>
 
 /// <summary>
