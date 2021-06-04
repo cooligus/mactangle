@@ -1,0 +1,195 @@
+﻿  Additionals.cpp
+C:\Users\PTK\Documents\Visual Studio 2019\Projects\Mactangle\Mactangle\src\Additionals.cpp(59,29): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\PTK\Documents\Visual Studio 2019\Projects\Mactangle\Mactangle\src\Additionals.cpp(71,43): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\PTK\Documents\Visual Studio 2019\Projects\Mactangle\Mactangle\src\Additionals.cpp(80,65): warning C4244: 'argument': conversion from 'float' to 'sf::Uint8', possible loss of data
+C:\Users\PTK\Documents\Visual Studio 2019\Projects\Mactangle\Mactangle\src\Additionals.cpp(80,49): warning C4244: 'argument': conversion from 'float' to 'sf::Uint8', possible loss of data
+C:\Users\PTK\Documents\Visual Studio 2019\Projects\Mactangle\Mactangle\src\Additionals.cpp(80,33): warning C4244: 'argument': conversion from 'float' to 'sf::Uint8', possible loss of data
+C:\Users\PTK\Documents\Visual Studio 2019\Projects\Mactangle\Mactangle\src\Additionals.cpp(87,65): warning C4244: 'argument': conversion from 'float' to 'sf::Uint8', possible loss of data
+C:\Users\PTK\Documents\Visual Studio 2019\Projects\Mactangle\Mactangle\src\Additionals.cpp(87,49): warning C4244: 'argument': conversion from 'float' to 'sf::Uint8', possible loss of data
+C:\Users\PTK\Documents\Visual Studio 2019\Projects\Mactangle\Mactangle\src\Additionals.cpp(87,33): warning C4244: 'argument': conversion from 'float' to 'sf::Uint8', possible loss of data
+  Bedler.cpp
+C:\Users\PTK\Documents\Visual Studio 2019\Projects\Mactangle\Mactangle\src\Bedler.cpp(31,26): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\PTK\Documents\Visual Studio 2019\Projects\Mactangle\Mactangle\src\Bedler.cpp(134,30): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\PTK\Documents\Visual Studio 2019\Projects\Mactangle\Mactangle\src\Bedler.cpp(144,29): warning C4305: 'argument': truncation from 'double' to 'float'
+  Dacler.cpp
+C:\Users\PTK\Documents\Visual Studio 2019\Projects\Mactangle\Mactangle\src\Dacler.cpp(48,28): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\PTK\Documents\Visual Studio 2019\Projects\Mactangle\Mactangle\src\Dacler.cpp(50,16): warning C4305: '=': truncation from 'double' to 'float'
+C:\Users\PTK\Documents\Visual Studio 2019\Projects\Mactangle\Mactangle\src\Dacler.cpp(131,30): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\PTK\Documents\Visual Studio 2019\Projects\Mactangle\Mactangle\src\Dacler.cpp(132,17): warning C4305: '=': truncation from 'double' to 'float'
+  Mactangle.cpp
+C:\Users\PTK\Documents\Visual Studio 2019\Projects\Mactangle\Mactangle\src\Mactangle.cpp(22,25): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\PTK\Documents\Visual Studio 2019\Projects\Mactangle\Mactangle\src\Mactangle.cpp(31,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\PTK\Documents\Visual Studio 2019\Projects\Mactangle\Mactangle\src\Mactangle.cpp(37,27): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\PTK\Documents\Visual Studio 2019\Projects\Mactangle\Mactangle\src\Mactangle.cpp(62,27): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\PTK\Documents\Visual Studio 2019\Projects\Mactangle\Mactangle\src\Mactangle.cpp(72,27): warning C4305: 'argument': truncation from 'double' to 'float'
+  main.cpp
+  MainClasses.cpp
+C:\Users\PTK\Documents\Visual Studio 2019\Projects\Mactangle\Mactangle\src\MainClasses.cpp(30,30): warning C4244: 'initializing': conversion from 'T' to 'float', possible loss of data
+          with
+          [
+              T=unsigned int
+          ]
+C:\Users\PTK\Documents\Visual Studio 2019\Projects\Mactangle\Mactangle\src\MainClasses.cpp(31,30): warning C4244: 'initializing': conversion from 'T' to 'float', possible loss of data
+          with
+          [
+              T=unsigned int
+          ]
+  Map.cpp
+C:\Users\PTK\Documents\Visual Studio 2019\Projects\Mactangle\Mactangle\src\Map.cpp(84,37): warning C4244: '=': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\PTK\Documents\Visual Studio 2019\Projects\Mactangle\Mactangle\src\Map.cpp(85,37): warning C4244: '=': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\PTK\Documents\Visual Studio 2019\Projects\Mactangle\Mactangle\src\Map.cpp(91,53): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\PTK\Documents\Visual Studio 2019\Projects\Mactangle\Mactangle\src\Map.cpp(91,36): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\PTK\Documents\Visual Studio 2019\Projects\Mactangle\Mactangle\src\Map.cpp(101,31): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\PTK\Documents\Visual Studio 2019\Projects\Mactangle\Mactangle\src\Map.cpp(180,24): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\PTK\Documents\Visual Studio 2019\Projects\Mactangle\Mactangle\src\Map.cpp(195,36): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+  Offert.cpp
+C:\Users\PTK\Documents\Visual Studio 2019\Projects\Mactangle\Mactangle\src\Offert.cpp(26,19): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\PTK\Documents\Visual Studio 2019\Projects\Mactangle\Mactangle\src\Offert.cpp(35,33): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\PTK\Documents\Visual Studio 2019\Projects\Mactangle\Mactangle\src\Offert.cpp(35,21): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\PTK\Documents\Visual Studio 2019\Projects\Mactangle\Mactangle\src\Offert.cpp(46,33): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\PTK\Documents\Visual Studio 2019\Projects\Mactangle\Mactangle\src\Offert.cpp(46,21): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\PTK\Documents\Visual Studio 2019\Projects\Mactangle\Mactangle\src\Offert.cpp(52,28): warning C4305: 'argument': truncation from 'int' to 'bool'
+C:\Users\PTK\Documents\Visual Studio 2019\Projects\Mactangle\Mactangle\src\Offert.cpp(57,31): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\PTK\Documents\Visual Studio 2019\Projects\Mactangle\Mactangle\src\Offert.cpp(57,19): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\PTK\Documents\Visual Studio 2019\Projects\Mactangle\Mactangle\src\Offert.cpp(64,32): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\PTK\Documents\Visual Studio 2019\Projects\Mactangle\Mactangle\src\Offert.cpp(64,20): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\PTK\Documents\Visual Studio 2019\Projects\Mactangle\Mactangle\src\Offert.cpp(70,28): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\PTK\Documents\Visual Studio 2019\Projects\Mactangle\Mactangle\src\Offert.cpp(77,40): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\PTK\Documents\Visual Studio 2019\Projects\Mactangle\Mactangle\src\Offert.cpp(77,33): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\PTK\Documents\Visual Studio 2019\Projects\Mactangle\Mactangle\src\Offert.cpp(78,34): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\PTK\Documents\Visual Studio 2019\Projects\Mactangle\Mactangle\src\Offert.cpp(78,22): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\PTK\Documents\Visual Studio 2019\Projects\Mactangle\Mactangle\src\Offert.cpp(79,48): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\PTK\Documents\Visual Studio 2019\Projects\Mactangle\Mactangle\src\Offert.cpp(79,31): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\PTK\Documents\Visual Studio 2019\Projects\Mactangle\Mactangle\src\Offert.cpp(80,49): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\PTK\Documents\Visual Studio 2019\Projects\Mactangle\Mactangle\src\Offert.cpp(80,32): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\PTK\Documents\Visual Studio 2019\Projects\Mactangle\Mactangle\src\Offert.cpp(89,34): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\PTK\Documents\Visual Studio 2019\Projects\Mactangle\Mactangle\src\Offert.cpp(89,22): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\PTK\Documents\Visual Studio 2019\Projects\Mactangle\Mactangle\src\Offert.cpp(90,34): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\PTK\Documents\Visual Studio 2019\Projects\Mactangle\Mactangle\src\Offert.cpp(90,22): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\PTK\Documents\Visual Studio 2019\Projects\Mactangle\Mactangle\src\Offert.cpp(91,32): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\PTK\Documents\Visual Studio 2019\Projects\Mactangle\Mactangle\src\Offert.cpp(91,20): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\PTK\Documents\Visual Studio 2019\Projects\Mactangle\Mactangle\src\Offert.cpp(92,33): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\PTK\Documents\Visual Studio 2019\Projects\Mactangle\Mactangle\src\Offert.cpp(92,21): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\PTK\Documents\Visual Studio 2019\Projects\Mactangle\Mactangle\src\Offert.cpp(111,39): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\PTK\Documents\Visual Studio 2019\Projects\Mactangle\Mactangle\src\Offert.cpp(111,25): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\PTK\Documents\Visual Studio 2019\Projects\Mactangle\Mactangle\src\Offert.cpp(130,34): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\PTK\Documents\Visual Studio 2019\Projects\Mactangle\Mactangle\src\Offert.cpp(130,22): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\PTK\Documents\Visual Studio 2019\Projects\Mactangle\Mactangle\src\Offert.cpp(131,34): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\PTK\Documents\Visual Studio 2019\Projects\Mactangle\Mactangle\src\Offert.cpp(131,22): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\PTK\Documents\Visual Studio 2019\Projects\Mactangle\Mactangle\src\Offert.cpp(132,32): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\PTK\Documents\Visual Studio 2019\Projects\Mactangle\Mactangle\src\Offert.cpp(132,20): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\PTK\Documents\Visual Studio 2019\Projects\Mactangle\Mactangle\src\Offert.cpp(133,33): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\PTK\Documents\Visual Studio 2019\Projects\Mactangle\Mactangle\src\Offert.cpp(133,21): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  PPSaB.cpp
+C:\Users\PTK\Documents\Visual Studio 2019\Projects\Mactangle\Mactangle\src\PPSaB.cpp(38,18): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\Users\PTK\Documents\Visual Studio 2019\Projects\Mactangle\Mactangle\src\PPSaB.cpp(39,18): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\Users\PTK\Documents\Visual Studio 2019\Projects\Mactangle\Mactangle\src\PPSaB.cpp(53,18): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\Users\PTK\Documents\Visual Studio 2019\Projects\Mactangle\Mactangle\src\PPSaB.cpp(54,18): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\Users\PTK\Documents\Visual Studio 2019\Projects\Mactangle\Mactangle\src\PPSaB.cpp(62,18): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\Users\PTK\Documents\Visual Studio 2019\Projects\Mactangle\Mactangle\src\PPSaB.cpp(63,18): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\Users\PTK\Documents\Visual Studio 2019\Projects\Mactangle\Mactangle\src\PPSaB.cpp(69,34): warning C4244: '=': conversion from 'const T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\PTK\Documents\Visual Studio 2019\Projects\Mactangle\Mactangle\src\PPSaB.cpp(70,34): warning C4244: '=': conversion from 'const T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\PTK\Documents\Visual Studio 2019\Projects\Mactangle\Mactangle\src\PPSaB.cpp(71,18): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\Users\PTK\Documents\Visual Studio 2019\Projects\Mactangle\Mactangle\src\PPSaB.cpp(72,18): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\Users\PTK\Documents\Visual Studio 2019\Projects\Mactangle\Mactangle\src\PPSaB.cpp(79,24): warning C4244: 'initializing': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\PTK\Documents\Visual Studio 2019\Projects\Mactangle\Mactangle\src\PPSaB.cpp(80,22): warning C4244: 'initializing': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\PTK\Documents\Visual Studio 2019\Projects\Mactangle\Mactangle\src\PPSaB.cpp(81,25): warning C4244: 'initializing': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\PTK\Documents\Visual Studio 2019\Projects\Mactangle\Mactangle\src\PPSaB.cpp(82,24): warning C4244: 'initializing': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\PTK\Documents\Visual Studio 2019\Projects\Mactangle\Mactangle\src\PPSaB.cpp(193,59): warning C4244: '=': conversion from 'double' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\PTK\Documents\Visual Studio 2019\Projects\Mactangle\Mactangle\src\PPSaB.cpp(194,59): warning C4244: '=': conversion from 'double' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\PTK\Documents\Visual Studio 2019\Projects\Mactangle\Mactangle\src\PPSaB.cpp(199,59): warning C4244: '=': conversion from 'double' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\PTK\Documents\Visual Studio 2019\Projects\Mactangle\Mactangle\src\PPSaB.cpp(200,59): warning C4244: '=': conversion from 'double' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\PTK\Documents\Visual Studio 2019\Projects\Mactangle\Mactangle\src\PPSaB.cpp(205,59): warning C4244: '=': conversion from 'double' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\PTK\Documents\Visual Studio 2019\Projects\Mactangle\Mactangle\src\PPSaB.cpp(206,59): warning C4244: '=': conversion from 'double' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\PTK\Documents\Visual Studio 2019\Projects\Mactangle\Mactangle\src\PPSaB.cpp(211,59): warning C4244: '=': conversion from 'double' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\PTK\Documents\Visual Studio 2019\Projects\Mactangle\Mactangle\src\PPSaB.cpp(212,59): warning C4244: '=': conversion from 'double' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+  Shop.cpp
+C:\Users\PTK\Documents\Visual Studio 2019\Projects\Mactangle\Mactangle\src\Shop.cpp(25,20): warning C4305: '=': truncation from 'double' to 'float'
+C:\Users\PTK\Documents\Visual Studio 2019\Projects\Mactangle\Mactangle\src\Shop.cpp(26,19): warning C4305: '=': truncation from 'double' to 'float'
+C:\Users\PTK\Documents\Visual Studio 2019\Projects\Mactangle\Mactangle\src\Shop.cpp(86,36): warning C4305: '/=': truncation from 'double' to 'float'
+C:\Users\PTK\Documents\Visual Studio 2019\Projects\Mactangle\Mactangle\src\Shop.cpp(90,36): warning C4305: '*=': truncation from 'double' to 'float'
+C:\Users\PTK\Documents\Visual Studio 2019\Projects\Mactangle\Mactangle\src\Shop.cpp(96,34): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\PTK\Documents\Visual Studio 2019\Projects\Mactangle\Mactangle\src\Shop.cpp(153,48): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\PTK\Documents\Visual Studio 2019\Projects\Mactangle\Mactangle\src\Shop.cpp(153,29): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\PTK\Documents\Visual Studio 2019\Projects\Mactangle\Mactangle\src\Shop.cpp(182,51): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\PTK\Documents\Visual Studio 2019\Projects\Mactangle\Mactangle\src\Shop.cpp(182,31): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+  Generating code
+  Previous IPDB not found, fall back to full compilation.
+C:\Users\PTK\Documents\Visual Studio 2019\Projects\Mactangle\Mactangle\src\Map.cpp(203): warning C4715: 'Map::getWhereIsGoingPath': not all control paths return a value
+C:\Users\PTK\Documents\Visual Studio 2019\Projects\Mactangle\Mactangle\src\Dacler.cpp(166): warning C4715: 'Dacler::canDestroy': not all control paths return a value
+C:\Users\PTK\Documents\Visual Studio 2019\Projects\Mactangle\Mactangle\src\Bedler.cpp(311): warning C4715: 'Bedler::testMactangles': not all control paths return a value
+  All 557 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  Mactangle.vcxproj -> C:\Users\PTK\Documents\Visual Studio 2019\Projects\Mactangle\x64\Release\Mactangle.exe
