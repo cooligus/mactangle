@@ -2,7 +2,7 @@
 There you will have to defend the END OF PATH from deadly squares that have mathematicals operations on them.
 
 ### Version
-1.1.1.02
+1.1.1.03
 
 ## Table of contents
 * [General info](#general-info)
@@ -10,6 +10,7 @@ There you will have to defend the END OF PATH from deadly squares that have math
 * [Technologies](#technologies)
 * [TODO](#todo)
 * [Documentation](#documentation)
+* [License](#License)
 * [Contact](#contact)
 
 ## General info
@@ -27,8 +28,11 @@ Project is created with:
 ## TODO
 * A lot 
 
-## DOCUMENTATION:
+## Documentation:
 [See documentation](rc/documentation/Documentation.md)
+
+## License
+[Mit license](rc/readmes/LICENSE.md)
 
 ## Contact
 Created by [Gienczyslaw](https://github.com/Gienczyslaw) - you can contact me by email gienczyslawprzeor@gmail.com
