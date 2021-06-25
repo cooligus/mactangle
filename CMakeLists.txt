@@ -6,7 +6,7 @@ set(CMAKE_CXX_STANDARD 11)
 set(CMAKE_BUILD_TYPE RelWithDebInfo)
 
 # Set up project
-project(Mactangle VERSION 1.1.1.01)
+project(Mactangle VERSION 1.1.1.02)
 
 
 # Set positions of sources and resources for cmake

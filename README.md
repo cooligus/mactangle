@@ -2,7 +2,7 @@
 There you will have to defend the END OF PATH from deadly squares that have mathematicals operations on them.
 
 ### Version
-1.1.1.01
+1.1.1.02
 
 ## Table of contents
 * [General info](#general-info)
