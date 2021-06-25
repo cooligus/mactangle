@@ -10,3 +10,8 @@ Map::Map(Path path, sf::Texture texture)
 	: m_path(path), m_texture(texture)
 {
 }
+
+Map::~Map()
+{
+
+}

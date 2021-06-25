@@ -6,11 +6,7 @@ set(CMAKE_CXX_STANDARD 11)
 set(CMAKE_BUILD_TYPE RelWithDebInfo)
 
 # Set up project
-project(Mactangle VERSION 1.1)
-
-# Set project version
-add_definitions(-DVERSION_MAJOR=${Mactangle_VERSION_MAJOR})
-add_definitions(-DVERSION_MINOR=${Mactangle_VERSION_MINOR})
+project(Mactangle VERSION 1.1.1.01)
 
 
 # Set positions of sources and resources for cmake
@@ -116,10 +112,11 @@ message(${TEXTURES_DIR})
 
 # Add source to executable
 add_executable (Mactangle
-				"${SOURCE_DIR}/game.cpp"
-				"${SOURCE_DIR}/main.cpp"
-				"${SOURCE_DIR}/map.cpp"
-				"${SOURCE_DIR}/path.cpp"
+				"${SOURCE_DIR}/Game.cpp"
+				"${SOURCE_DIR}/Main.cpp"
+				"${SOURCE_DIR}/Map.cpp"
+				"${SOURCE_DIR}/Path.cpp"
+				"${SOURCE_DIR}/TextureContainer.cpp"
 				"${RESOURCES_DIR}/icon/icon.rc"
 				  )
 

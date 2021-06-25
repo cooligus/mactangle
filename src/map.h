@@ -11,9 +11,9 @@ public:
 	/// <summary>
 	/// First constructor.
 	/// </summary>
-	/// <param name="pathPath"></param>
+	/// <param name="dataPath"></param>
 	/// <param name="texturePath"></param>
-	Map(std::string pathPath, std::string texturePath);
+	Map(std::string dataPath, std::string texturePath);
 
 	/// <summary>
 	/// Second constructor.

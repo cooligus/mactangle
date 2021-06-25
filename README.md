@@ -2,14 +2,14 @@
 There you will have to defend the END OF PATH from deadly squares that have mathematicals operations on them.
 
 ### Version
-1.1.2
+1.1.1.01
 
 ## Table of contents
 * [General info](#general-info)
 * [Screenshots](#screenshots)
 * [Technologies](#technologies)
 * [TODO](#todo)
-* [Status](#status)
+* [Documentation](#documentation)
 * [Contact](#contact)
 
 ## General info
@@ -24,11 +24,11 @@ Project is created with:
 * [SFML](https://www.sfml-dev.org/)
 * [JSON](https://github.com/nlohmann/json/)
 	
-## TODO:
-* A lot [See documentation](Documentation.md)
+## TODO
+* A lot 
 
-## Status
-Project is in progress cause I still have some stuffs to do (see at TODO).
+## DOCUMENTATION:
+[See documentation](rc/documentation/Documentation.md)
 
 ## Contact
 Created by [Gienczyslaw](https://github.com/Gienczyslaw) - you can contact me by email gienczyslawprzeor@gmail.com
