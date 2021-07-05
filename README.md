@@ -24,6 +24,7 @@ Project is created with:
 * [CMake](https://cmake.org/)
 * [SFML](https://www.sfml-dev.org/)
 * [JSON](https://github.com/nlohmann/json/)
+* [HitboxBuilder](https://github.com/Tastyep/HitboxBuilder-2D)
 	
 ## TODO
 * A lot 
