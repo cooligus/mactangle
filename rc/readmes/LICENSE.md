@@ -1,6 +1,6 @@
 [MIT License](https://opensource.org/licenses/MIT)
 
-Copyright (c) 2021 Gienczys³aw
+Copyright (c) 2021 Gienczyslaw
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

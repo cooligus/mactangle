@@ -28,11 +28,8 @@ Project is created with:
 ## TODO
 * A lot 
 
-## Documentation:
-[See documentation](rc/documentation/Documentation.md)
-
 ## License
 [Mit license](rc/readmes/LICENSE.md)
 
 ## Creator
-Created by [Gienczys³aw](https://github.com/Gienczyslaw) - you can contact me by email gienczyslawprzeor@gmail.com
+Created by [Gienczyslaw](https://github.com/Gienczyslaw) - you can contact me by email gienczyslawprzeor@gmail.com
