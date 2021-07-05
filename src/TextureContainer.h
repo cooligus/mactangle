@@ -8,7 +8,7 @@ class TextureContainer
 {
 public:
 	/// <summary>
-	/// Worst type of constuctor for this class because than you forget to push texture to it then something methods will not work.
+	/// Worst type of constuctor for this class because than you forget to push texture to it then some methods will not work.
 	/// </summary>
 	TextureContainer();
 
@@ -34,7 +34,7 @@ public:
 	/// <param name="path">- Path to texture.</param>
 	/// <param name="index">- "Place" where path to texture have to be.</param>
 	/// <param name="withLoad">- Load texture from file and push it into sf::Texture class if true or not if false.</param>
-	/// <returns>Does operation succeeded or not</returns>
+	/// <returns>Does operation succeeded or not.</returns>
 	bool addPath(std::string path, int index = -1, bool withLoad = true);
 
 	/// <summary>

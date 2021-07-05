@@ -1,53 +1,45 @@
 #include <iostream>
 #include "TextureContainer.h"
-
+#include "Game.h"
+#include "Path.h"
 
 int main()
 {
-	// */* TESTING SPACE */*
-
 	TextureContainer textureContainer;
 
-	textureContainer.addPath(DACLER_PNG);
-
-        
-	// *\* END OF TESTING SPACE *\*
+	textureContainer.addPath(BACKGROUND_PNG);
+    Path path;
     
-
     // Create the main window
-    sf::RenderWindow window(sf::VideoMode(200, 50), "SFML window");
-    // Load a sprite to display
+    Game game;
 
-    sf::Texture textt = textureContainer.getTexture();
-
-    //textureContainer.setTexture(textt);
-    textt.loadFromFile(MACTANGLE_PNG);
-
-    textureContainer.fitToVector(sf::Vector2u(200, 50));
+    textureContainer.fitToVector(game.getSize());
     sf::Sprite sprite = textureContainer.getSprite();
-
-    std::cout << sprite.getTexture()->getSize().x;
     
     // Start the game loop
-    while (window.isOpen())
+    while (game.isOpen())
     {
         // Process events
         sf::Event event;
-        while (window.pollEvent(event))
+        while (game.pollEvent(event))
         {
             // Close window: exit
+            if (sf::Keyboard::isKeyPressed(sf::Keyboard::Escape))
+                game.close();
+
+            // Close window: exit
             if (event.type == sf::Event::Closed)
-                window.close();
+                game.close();
         }
 
         // Clear screen
-        window.clear();
+        game.clear();
 
         // Draw the sprite
-        window.draw(sprite);
+        game.draw(sprite);
 
         // Update the window
-        window.display();
+        game.display();
     }
 
 	return 0;

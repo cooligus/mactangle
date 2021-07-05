@@ -81,9 +81,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.24748737"
-     inkscape:cx="475.67535"
-     inkscape:cy="748.64863"
+     inkscape:zoom="2.8"
+     inkscape:cx="110.512"
+     inkscape:cy="1070.1824"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      inkscape:document-rotation="0"
@@ -112,8 +112,7 @@
      inkscape:groupmode="layer"
      id="layer2"
      inkscape:label="Case 2: height of texture is bigger than width"
-     style="display:inline"
-     sodipodi:insensitive="true">
+     style="display:none">
     <rect
        style="display:inline;fill:#4d4d4d;fill-opacity:0.74902;stroke-width:0.999998;stroke-linecap:square;stroke-linejoin:round"
        id="rect835-0-1-3"
@@ -155,7 +154,7 @@
        xml:space="preserve"
        id="text891-5"
        style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect893-7);display:inline;fill:#ffffff;fill-opacity:1;stroke:none;"
-       transform="translate(1010.8804,-729.8927)"><tspan
+       transform="translate(1017.4464,-667.76832)"><tspan
          x="-1010"
          y="-285.70508"><tspan
            style="fill:#ffffff;fill-opacity:1">Targeted size of texture</tspan></tspan></text>
@@ -165,8 +164,7 @@
      inkscape:groupmode="layer"
      id="layer1"
      transform="translate(0,194.66666)"
-     style="display:none"
-     sodipodi:insensitive="true">
+     style="display:inline">
     <rect
        style="fill:#4d4d4d;fill-opacity:0.74902;stroke-width:0.999998;stroke-linecap:square;stroke-linejoin:round"
        id="rect835-6"
@@ -192,7 +190,7 @@
        xml:space="preserve"
        id="text839"
        style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect841);fill:#ffffff;fill-opacity:1;stroke:none;"
-       transform="translate(-4.9789734,-49.252371)"><tspan
+       transform="translate(10.021027,5.7476291)"><tspan
          x="0"
          y="-159.27539"><tspan
            style="fill:#ffffff;fill-opacity:1">Window</tspan></tspan></text>
@@ -208,7 +206,7 @@
        xml:space="preserve"
        id="text891"
        style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect893);fill:#ffffff;fill-opacity:1;stroke:none;"
-       transform="translate(27.857143,75.714286)"><tspan
+       transform="translate(35.938363,139.85897)"><tspan
          x="-1010"
          y="-285.70508"><tspan
            style="fill:#ffffff;fill-opacity:1">Targeted size of texture</tspan></tspan></text>

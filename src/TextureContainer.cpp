@@ -92,12 +92,12 @@ bool TextureContainer::centerSprite()
 		//put scale of sprite into variable
 		sf::Vector2f spriteScale = m_sprite.getScale();
 
-
+		
 		//multiply width of texture by scale X
-		textureSize.x = static_cast<float>(textureSize.x) * spriteScale.x;
+		textureSize.x *= static_cast<float>(spriteScale.x);
 
 		//multiply height of texture by scale Y
-		textureSize.y = static_cast<float>(textureSize.y) * spriteScale.y;
+		textureSize.y *= static_cast<float>(spriteScale.y);
 
 
 		//define variable with position of sprite

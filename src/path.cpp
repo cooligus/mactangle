@@ -1,19 +1,59 @@
-#include <fstream>
 #include "path.h"
-#include <nlohmann/json.hpp>
 #include <iostream>
-#include <ctype.h>
 
 using json = nlohmann::json;
 
 //define first contructor
-Path::Path(std::vector<sf::Vector2f> path)
-	:m_elements(path)
+Path::Path(std::vector<sf::Vector2f> path, float thickness)
+	:m_elements(path), m_thickness(thickness)
 {
 }
 
 //define second contructor
 Path::Path(std::string path)
+	: m_elements(), m_thickness(1)
+{
+	//load path
+	loadPath(path);
+}
+
+//define third contructor
+Path::Path()
+	:m_elements(), m_thickness(1)
+{
+}
+
+//define desctructor
+Path::~Path()
+{
+}
+
+
+//define first getter
+sf::Vector2f Path::getElement(unsigned index)
+{
+	//return element
+	return m_elements[index];
+}
+
+//define second getter
+std::vector<sf::Vector2f> Path::getAll()
+{
+	//return path
+	return m_elements;
+}
+
+bool Path::isOnPath(sf::Sprite object, bool all)
+{
+	return false;
+}
+
+bool Path::moveOnPath(sf::Sprite object, float speed)
+{
+	return false;
+}
+
+bool Path::loadPath(std::string path)
 {
 	//new in-file stream
 	std::ifstream file(path, std::ifstream::in);
@@ -34,53 +74,40 @@ Path::Path(std::string path)
 			throw std::exception("Can't open .json file!");
 
 			//end work
-			return;
+			return json();
 		}
 	}
 
-	//vector with path's points
-	std::vector<sf::Vector2f> pathPoints;
-		
-	//parse json file
-	json pathObject = json::parse(file)["path"];
-
-	for (auto i = 0; i < pathObject.size(); i++)
-	{
-		//actual point name
-		std::string name = "point-" + std::to_string(i);
-
-		//push to pathPoints next point
-		pathPoints.push_back(sf::Vector2f(pathObject[name]["x"], pathObject[name]["y"]));
-
-		//display points (uncomment it before)
-		//std::cout << "x: " << pathPoints[i].x << " y: " << pathPoints[i].y << std::endl;
-	}
+	m_data = json::parse(file)["path"];
 
 	//close file
 	file.close();
-}
 
-//define tertiary contructor
-Path::Path()
-	:m_elements()
-{
-}
+	//vector with path's points
+	m_elements = std::vector<sf::Vector2f>();
 
-//define desctructor
-Path::~Path()
-{
-}
+	//setup vector if m_data is not null
+	if (!m_data[PATH_OBJ_NAME].is_null())
+	{
+		//make new json object with path
+		json path = m_data[PATH_OBJ_NAME];
 
-//define first getter
-sf::Vector2f Path::getElement(unsigned index)
-{
-	//return element
-	return m_elements[index];
-}
+		//get all elements of path if size of path object doesn't equal to 0
+		for (int i = 0; i < path.size(); i++)
+		{
+			//actual point name
+			std::string name = POINT_OBJ_NAME + std::to_string(i);
 
-//define second getter
-std::vector<sf::Vector2f> Path::getAll()
-{
-	//return path
-	return m_elements;
+			//push to pathPoints next point
+			m_elements.push_back(sf::Vector2f(path[name][POINT_POSITION_X_NAME], path[name][POINT_POSITION_Y_NAME]));
+
+			//display points (uncomment it before)
+			std::cout << "x: " << m_elements[i].x << " y: " << m_elements[i].y << std::endl;
+		}
+
+		//return success
+		return true;
+	}
+	//return failure
+	return false;
 }

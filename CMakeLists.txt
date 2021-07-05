@@ -1,13 +1,14 @@
 ﻿# Set minimum version of cmake
 cmake_minimum_required (VERSION 3.19)
 
-# Set c++ and cmake dependencies
-set(CMAKE_CXX_STANDARD 11)
-set(CMAKE_BUILD_TYPE RelWithDebInfo)
-
 # Set up project
 project(Mactangle VERSION 1.1.1.03)
 
+# Add definitions
+add_definitions(-DPATH_OBJ_NAME="path")
+add_definitions(-DPOINT_OBJ_NAME="point-")
+add_definitions(-DPOINT_POSITION_X_NAME="x")
+add_definitions(-DPOINT_POSITION_Y_NAME="y")
 
 # Set positions of sources and resources for cmake
 set(SOURCE_DIR "${CMAKE_CURRENT_SOURCE_DIR}/src")
@@ -127,14 +128,15 @@ add_subdirectory("${LIBS_DIR}/SFML-2.5.1/")
 # Add JSON subdirectory
 add_subdirectory("${LIBS_DIR}/json/")
 
-# Link libs with Mactangle
-target_link_libraries(Mactangle PUBLIC sfml-system sfml-window sfml-graphics sfml-network sfml-audio nlohmann_json::nlohmann_json)
+# Add hitbox builder
+add_subdirectory("${LIBS_DIR}/HitboxBuilder-2D/")
 
-# Add LW subdirectory
+# Link libs with mactangle
+target_link_libraries(Mactangle PUBLIC sfml-system sfml-window sfml-graphics sfml-network sfml-audio nlohmann_json::nlohmann_json HitboxBuilder)
+ 
+  
+# Add LW subdirectory for install_stuffs cmake function
 add_subdirectory("${LIBS_DIR}/LW/")
-
-# Add LW to Mactangle 
-target_include_directories(Mactangle PUBLIC LW)
 
 # Use install_stuffs() function for textures
 install_stuffs(TEXTURES NAMES_OF_TEXTURES ${TEXTURES_DIR} ${TEXTURES_INSTALL_DIR} ${TEXTURES_PROGRAM_DIR} ${TEXTURES_EXT})

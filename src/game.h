@@ -1,6 +1,9 @@
 #include <SFML/Graphics.hpp>
 
-class Game
+/// <summary>
+/// SFML RenderWindow but with Font, View and some methods that will be used to play game.
+/// </summary>
+class Game : public sf::RenderWindow
 {
 public:
 	/// <summary>
@@ -14,10 +17,6 @@ public:
 	~Game();
 
 private:
-	/// <summary>
-	/// SFML window.
-	/// </summary>
-	sf::RenderWindow m_window;
 
 	/// <summary>
 	/// SFML view.

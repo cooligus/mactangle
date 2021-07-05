@@ -1,4 +1,4 @@
-MIT License
+[MIT License](https://opensource.org/licenses/MIT)
 
 Copyright (c) 2021 Gienczys³aw
 
@@ -19,3 +19,10 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+The software uses the JSON parser which is licensed under the MIT License. 
+Copyright © 2013-2021 Niels Lohmann.
+
+The software uses the HitboxBuilder-2D library. Copyright © 2017 Luc Sinet
+
+The software uses the SFML library. Copyright © 2007-2018 Laurent Gomila.

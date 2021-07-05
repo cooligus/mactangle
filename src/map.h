@@ -1,10 +1,11 @@
-#include "path.h"
+#include "Path.h"
+#include "TextureContainer.h"
 #include <SFML/Graphics.hpp>
 
 /// <summary>
-/// Store path, map texture and control it. 
+/// Store path, map data, textures and control all of it. 
 /// </summary>
-class Map
+class Map : public TextureContainer, Path
 {
 public:
 
@@ -16,30 +17,20 @@ public:
 	Map(std::string dataPath, std::string texturePath);
 
 	/// <summary>
-	/// Second constructor.
-	/// </summary>
-	/// <param name="path"></param>
-	/// <param name="texture"></param>
-	Map(Path path, sf::Texture texture);
-
-	/// <summary>
-	/// Tertiary constructor. 
+	/// Second constructor. 
 	/// </summary>
 	Map();
 
 	/// <summary>
-	/// Destructor
+	/// Destructor.
 	/// </summary>
 	~Map();
 
+
 private:
+
 	/// <summary>
 	/// mactangles’ path
 	/// </summary>
 	Path m_path;
-
-	/// <summary>
-	/// path look and design
-	/// </summary>
-	sf::Texture m_texture;
 };
