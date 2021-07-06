@@ -30,7 +30,7 @@ Project is created with:
 * A lot 
 
 ## License
-[Mit license](rc/readmes/LICENSE.md)
+[GNU GENERAL PUBLIC LICENSE](rc/readmes/LICENSE.md)
 
 ## Creator
 Created by [Gienczyslaw](https://github.com/Gienczyslaw) - you can contact me by email gienczyslawprzeor@gmail.com

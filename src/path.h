@@ -1,7 +1,25 @@
+//This file is part of Mactangle.
+//
+//Mactangle is free software : you can redistribute it and /or modify
+//it under the terms of the GNU General Public License as published by
+//the Free Software Foundation, either version 3 of the License, or
+//(at your option) any later version.
+//
+//Mactangle is distributed in the hope that it will be useful,
+//but WITHOUT ANY WARRANTY; without even the implied warranty of
+//MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.See the
+//GNU General Public License for more details.
+//
+//You should have received a copy of the GNU General Public License
+//along with Mactangle. If not, see < https://www.gnu.org/licenses/>.
+
+#pragma once
+
 #include <SFML/Graphics.hpp>
 #include <vector>
 #include <fstream>
 #include <nlohmann/json.hpp>
+#include <Module.hpp>
 
 /// <summary>
 /// Store all points of path and give element of that path or give all path. Path is getting from .json file or from special vector.
@@ -69,6 +87,12 @@ public:
 	bool moveOnPath(sf::Sprite object, float speed);
 
 private:
+
+
+	/// <summary>
+	/// Hitbox of path. Class use it to check whether is something on path.
+	/// </summary>
+	HitboxBuilder::Hitbox m_hitbox;
 
 	/// <summary>
 	/// JSON object with path and rest of data.

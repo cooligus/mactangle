@@ -1,3 +1,20 @@
+//This file is part of Mactangle.
+//
+//Mactangle is free software : you can redistribute it and /or modify
+//it under the terms of the GNU General Public License as published by
+//the Free Software Foundation, either version 3 of the License, or
+//(at your option) any later version.
+//
+//Mactangle is distributed in the hope that it will be useful,
+//but WITHOUT ANY WARRANTY; without even the implied warranty of
+//MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.See the
+//GNU General Public License for more details.
+//
+//You should have received a copy of the GNU General Public License
+//along with Mactangle. If not, see < https://www.gnu.org/licenses/>.
+
+#pragma once
+
 #include "path.h"
 #include <iostream>
 
@@ -5,13 +22,13 @@ using json = nlohmann::json;
 
 //define first contructor
 Path::Path(std::vector<sf::Vector2f> path, float thickness)
-	:m_elements(path), m_thickness(thickness)
+	:m_elements(path), m_thickness(thickness), m_hitbox(std::vector<HitboxBuilder::Polygon>(), HitboxBuilder::Polygon())
 {
 }
 
 //define second contructor
 Path::Path(std::string path)
-	: m_elements(), m_thickness(1)
+	: m_elements(), m_thickness(1), m_hitbox(std::vector<HitboxBuilder::Polygon>(), HitboxBuilder::Polygon())
 {
 	//load path
 	loadPath(path);
@@ -19,7 +36,7 @@ Path::Path(std::string path)
 
 //define third contructor
 Path::Path()
-	:m_elements(), m_thickness(1)
+	:m_elements(), m_thickness(1), m_hitbox(std::vector<HitboxBuilder::Polygon>(), HitboxBuilder::Polygon())
 {
 }
 
@@ -79,6 +96,8 @@ bool Path::loadPath(std::string path)
 	}
 
 	m_data = json::parse(file)["path"];
+	
+
 
 	//close file
 	file.close();
@@ -104,7 +123,7 @@ bool Path::loadPath(std::string path)
 			//display points (uncomment it before)
 			std::cout << "x: " << m_elements[i].x << " y: " << m_elements[i].y << std::endl;
 		}
-
+		
 		//return success
 		return true;
 	}

@@ -1,4 +1,19 @@
-﻿# Set minimum version of cmake
+﻿#This file is part of Mactangle.
+#
+#Mactangle is free software : you can redistribute it and /or modify
+#it under the terms of the GNU General Public License as published by
+#the Free Software Foundation, either version 3 of the License, or
+#(at your option) any later version.
+#
+#Mactangle is distributed in the hope that it will be useful,
+#but WITHOUT ANY WARRANTY; without even the implied warranty of
+#MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.See the
+#GNU General Public License for more details.
+#
+#You should have received a copy of the GNU General Public License
+#along with Mactangle. If not, see < https://www.gnu.org/licenses/>.
+
+# Set minimum version of cmake
 cmake_minimum_required (VERSION 3.19)
 
 # Set up project
@@ -121,18 +136,40 @@ add_executable (Mactangle
 				"${RESOURCES_DIR}/icon/icon.rc"
 				  )
 
+# Set global include string s
+set(INCLUDE_STR "include")
+set(SINGLE_INCLUDE_STR "single-include")
+
+
+# Set variable with paths to libs
+set(SFML_PATH "${LIBS_DIR}/SFML-2.5.1")
+set(HITBOX_PATH "${LIBS_DIR}/HitboxBuilder-2D")
+set(JSON_PATH "${LIBS_DIR}/json")
+
 
 # Add SFML subdirectory
-add_subdirectory("${LIBS_DIR}/SFML-2.5.1/")
+add_subdirectory(${SFML_PATH})
 
-# Add JSON subdirectory
-add_subdirectory("${LIBS_DIR}/json/")
+# Add SFML .hpp files
+include_directories(SYSTEM "${SFML_PATH}/${INCLUDE_STR}")
+
 
 # Add hitbox builder
-add_subdirectory("${LIBS_DIR}/HitboxBuilder-2D/")
+add_subdirectory(${HITBOX_PATH})
+
+# Add hitbox builder .hpp files
+include_directories(SYSTEM "${HITBOX_PATH}/${INCLUDE_STR}")
+
+
+# Add JSON subdirectory
+add_subdirectory(${JSON_PATH})
+
+# Add json .h files
+include_directories(SYSTEM "${JSON_PATH}/${INCLUDE_STR}")
+
 
 # Link libs with mactangle
-target_link_libraries(Mactangle PUBLIC sfml-system sfml-window sfml-graphics sfml-network sfml-audio nlohmann_json::nlohmann_json HitboxBuilder)
+target_link_libraries(Mactangle PUBLIC sfml-system sfml-window sfml-graphics sfml-network sfml-audio HitboxBuilder nlohmann_json::nlohmann_json)
  
   
 # Add LW subdirectory for install_stuffs cmake function
