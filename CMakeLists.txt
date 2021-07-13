@@ -1,17 +1,17 @@
-﻿#This file is part of Mactangle.
-#
-#Mactangle is free software : you can redistribute it and /or modify
-#it under the terms of the GNU General Public License as published by
-#the Free Software Foundation, either version 3 of the License, or
-#(at your option) any later version.
-#
-#Mactangle is distributed in the hope that it will be useful,
-#but WITHOUT ANY WARRANTY; without even the implied warranty of
-#MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.See the
-#GNU General Public License for more details.
-#
-#You should have received a copy of the GNU General Public License
-#along with Mactangle. If not, see < https://www.gnu.org/licenses/>.
+﻿# This file is part of Mactangle.
+# 
+# Mactangle is free software : you can redistribute it and /or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation, either version 3 of the License, or
+# (at your option) any later version.
+# 
+# Mactangle is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.See the
+# GNU General Public License for more details.
+# 
+# You should have received a copy of the GNU General Public License
+# along with Mactangle. If not, see < https://www.gnu.org/licenses/>.
 
 # Set minimum version of cmake
 cmake_minimum_required (VERSION 3.19)
@@ -130,9 +130,9 @@ message(${TEXTURES_DIR})
 add_executable (Mactangle
 				"${SOURCE_DIR}/Game.cpp"
 				"${SOURCE_DIR}/Main.cpp"
-				"${SOURCE_DIR}/Map.cpp"
+				
 				"${SOURCE_DIR}/Path.cpp"
-				"${SOURCE_DIR}/TextureContainer.cpp"
+				"src/Map.cpp"
 				"${RESOURCES_DIR}/icon/icon.rc"
 				  )
 
@@ -145,6 +145,7 @@ set(SINGLE_INCLUDE_STR "single-include")
 set(SFML_PATH "${LIBS_DIR}/SFML-2.5.1")
 set(HITBOX_PATH "${LIBS_DIR}/HitboxBuilder-2D")
 set(JSON_PATH "${LIBS_DIR}/json")
+set(COLLISION_PATH "${LIBS_DIR}/SimpleCollision")
 
 
 # Add SFML subdirectory
@@ -159,6 +160,13 @@ add_subdirectory(${HITBOX_PATH})
 
 # Add hitbox builder .hpp files
 include_directories(SYSTEM "${HITBOX_PATH}/${INCLUDE_STR}")
+
+
+# Add SimpleCollision
+add_library(collision OBJECT "${COLLISION_PATH}/simpleCollision.cpp")
+
+# Add SimpleCollision .h file
+include_directories(SYSTEM "${COLLISION_PATH}/")
 
 
 # Add JSON subdirectory

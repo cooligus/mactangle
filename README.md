@@ -25,12 +25,14 @@ Project is created with:
 * [SFML](https://www.sfml-dev.org/)
 * [JSON](https://github.com/nlohmann/json/)
 * [HitboxBuilder](https://github.com/Tastyep/HitboxBuilder-2D)
+* [Collision2D](https://github.com/eric-heiden/collision2d)
+* [Eigen](https://eigen.tuxfamily.org/)
 	
 ## TODO
 * A lot 
 
 ## License
-[GNU GENERAL PUBLIC LICENSE](rc/readmes/LICENSE.md)
+[GNU GENERAL PUBLIC LICENSE](LICENSE.md)
 
 ## Creator
 Created by [Gienczyslaw](https://github.com/Gienczyslaw) - you can contact me by email gienczyslawprzeor@gmail.com
