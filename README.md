@@ -7,7 +7,7 @@ There you will have to defend the END OF PATH from deadly squares that have math
 ## Table of contents
 * [General info](#general-info)
 * [Screenshots](#screenshots)
-* [Technologies](#technologies)
+* [Libs](#libs)
 * [TODO](#todo)
 * [Documentation](#documentation)
 * [License](#License)
@@ -19,14 +19,13 @@ From start of path get out squares that if they reach end of path take you a hea
 ## Screenshots
 ![Soon]()
 
-## Technologies
+## Libs
 Project is created with:
 * [CMake](https://cmake.org/)
 * [SFML](https://www.sfml-dev.org/)
 * [JSON](https://github.com/nlohmann/json/)
 * [HitboxBuilder](https://github.com/Tastyep/HitboxBuilder-2D)
-* [Collision2D](https://github.com/eric-heiden/collision2d)
-* [Eigen](https://eigen.tuxfamily.org/)
+* [SimpleCollision](https://github.com/SimpleRepos/SimpleCollision)
 	
 ## TODO
 * A lot 
