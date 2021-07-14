@@ -141,10 +141,15 @@ set(SINGLE_INCLUDE_STR "single-include")
 
 
 # Set variable with paths to libs
+set(FREETYPE_PATH "${LIBS_DIR}/freetype")
 set(SFML_PATH "${LIBS_DIR}/SFML-2.5.1")
 set(HITBOX_PATH "${LIBS_DIR}/HitboxBuilder-2D")
 set(JSON_PATH "${LIBS_DIR}/json")
 set(COLLISION_PATH "${LIBS_DIR}/SimpleCollision")
+
+
+# Add SFML subdirectory
+add_subdirectory(${FREETYPE_PATH})
 
 
 # Add SFML subdirectory
