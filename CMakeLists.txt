@@ -14,7 +14,7 @@
 # along with Mactangle. If not, see < https://www.gnu.org/licenses/>.
 
 # Set minimum version of cmake
-cmake_minimum_required (VERSION 3.19)
+cmake_minimum_required (VERSION 3.17)
 
 # Set up project
 project(Mactangle VERSION 1.1.1.03)
