@@ -36,7 +36,7 @@ int main()
     circle.setPosition(0, 0);
     circle.setFillColor(sf::Color(200, 200, 200));
     circle.setScale(2.2, 2.2);
-    circle.setRadius(50);
+    circle.setRadius(500);
 
     // Start the game loop
     while (game.isOpen())
