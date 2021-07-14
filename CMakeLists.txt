@@ -149,10 +149,6 @@ set(COLLISION_PATH "${LIBS_DIR}/SimpleCollision")
 
 
 # Add SFML subdirectory
-add_subdirectory(${FREETYPE_PATH})
-
-
-# Add SFML subdirectory
 add_subdirectory(${SFML_PATH})
 
 # Add SFML .hpp files
