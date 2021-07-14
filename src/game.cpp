@@ -14,10 +14,11 @@
 // along with Mactangle. If not, see < https://www.gnu.org/licenses/>.
 
 #include "game.h"
+#include <SFML/Window/ContextSettings.hpp>
 
 //define contructor
 Game::Game(sf::VideoMode videoMode, sf::String windowName, sf::String fontPath, unsigned int health)
-	:RenderWindow(videoMode, windowName, sf::Style::Fullscreen), m_font(), m_health(3)
+	:RenderWindow(videoMode, windowName, sf::Style::Fullscreen, sf::ContextSettings(0, 0, 16)), m_font(), m_health(3)
 {
 	//load font using prepared by cmake variable with font's position
 	if(!m_font.loadFromFile(CUBICCOREMONO_TTF))
@@ -25,7 +26,7 @@ Game::Game(sf::VideoMode videoMode, sf::String windowName, sf::String fontPath, 
 
 	//set camera's stuffs
 	m_camera.setSize(videoMode.width, videoMode.height);
-	m_camera.setCenter(videoMode.width / 2, videoMode.height / 2);
+	m_camera.setCenter(videoMode.width / 2.f, videoMode.height / 2.f);
 	m_camera.setViewport(sf::FloatRect(0, 0, 1, 1));
 
 	//set window's properties
