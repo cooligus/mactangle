@@ -127,7 +127,7 @@ set(NAMES_OF_READMES
 message(${TEXTURES_DIR})
 
 # Add source to executable
-add_executable (Mactangle
+add_executable (Mactangle WIN32
 				"${SOURCE_DIR}/Game.cpp"
 				"${SOURCE_DIR}/Main.cpp"
 				"${SOURCE_DIR}/Path.cpp"
@@ -135,13 +135,13 @@ add_executable (Mactangle
 				"${RESOURCES_DIR}/icon/icon.rc"
 				  )
 
+
 # Set global include string s
 set(INCLUDE_STR "include")
 set(SINGLE_INCLUDE_STR "single-include")
 
 
 # Set variable with paths to libs
-set(FREETYPE_PATH "${LIBS_DIR}/freetype")
 set(SFML_PATH "${LIBS_DIR}/SFML-2.5.1")
 set(HITBOX_PATH "${LIBS_DIR}/HitboxBuilder-2D")
 set(JSON_PATH "${LIBS_DIR}/json")
@@ -156,10 +156,10 @@ include_directories(SYSTEM "${SFML_PATH}/${INCLUDE_STR}")
 
 
 # Add hitbox builder
-add_subdirectory(${HITBOX_PATH})
+#add_subdirectory(${HITBOX_PATH})
 
 # Add hitbox builder .hpp files
-include_directories(SYSTEM "${HITBOX_PATH}/${INCLUDE_STR}")
+#include_directories(SYSTEM "${HITBOX_PATH}/${INCLUDE_STR}")
 
 
 # Add SimpleCollision
@@ -177,11 +177,13 @@ include_directories(SYSTEM "${JSON_PATH}/${INCLUDE_STR}")
 
 
 # Link libs with mactangle
-target_link_libraries(Mactangle PUBLIC sfml-system sfml-window sfml-graphics sfml-network sfml-audio HitboxBuilder nlohmann_json::nlohmann_json)
+target_link_libraries(Mactangle PUBLIC sfml-system sfml-window sfml-graphics sfml-network sfml-audio nlohmann_json::nlohmann_json)
  
+# Add local cmake subdirectory to CMAKE_MODULE_PATH
+list(APPEND CMAKE_MODULE_PATH "${PROJECT_SOURCE_DIR}/cmake")
   
 # Add LW subdirectory for install_stuffs cmake function
-add_subdirectory("${LIBS_DIR}/LW/")
+include(LW)
 
 # Use install_stuffs() function for textures
 install_stuffs(TEXTURES NAMES_OF_TEXTURES ${TEXTURES_DIR} ${TEXTURES_INSTALL_DIR} ${TEXTURES_PROGRAM_DIR} ${TEXTURES_EXT})
