@@ -11,7 +11,6 @@ There you will have to defend the END OF PATH from deadly squares that have math
 * [TODO](#todo)
 * [Documentation](#documentation)
 * [License](#License)
-* [Creator](#creator)
 
 ## General info
 From start of path get out squares that if they reach end of path take you a heart (default you have three ones). To destroy them you can use two stuffs. First (bedler) you can place everywhere and if you write to it value that equal with mathematical operation on whichever mactangle is, you will destroy it. Second one costs (default) 300 MCoins and them you can place only on path and when any of squares will get on it, one will be destroyed.   
@@ -25,12 +24,12 @@ Project is created with:
 * [JSON](https://github.com/nlohmann/json/)
 * [HitboxBuilder](https://github.com/Tastyep/HitboxBuilder-2D)
 * [SimpleCollision](https://github.com/SimpleRepos/SimpleCollision)
+* [CNGui](https://github.com/swordfatih/CNGui/tree/1.0)
+* [imgui-sfml](https://github.com/eliasdaler/imgui-sfml)
+* [Thor](https://github.com/eXpl0it3r/Thor)
 	
 ## TODO
-* A lot 
+* That game :)
 
 ## License
 [GNU GENERAL PUBLIC LICENSE](LICENSE.md)
-
-## Creator
-Created by [Gienczyslaw](https://github.com/Gienczyslaw) - you can contact me by email gienczyslawprzeor@gmail.com

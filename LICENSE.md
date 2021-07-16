@@ -623,7 +623,7 @@ copy of the Program in return for a fee.
                      END OF TERMS AND CONDITIONS
 
     Mactangle is a simple mathematic tower defence with rectangles.
-    Copyright (C) 2021  Gienczyslaw
+    Copyright (C) 2021  Gienki
 
     This program is free software: you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
