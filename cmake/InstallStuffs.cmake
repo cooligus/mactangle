@@ -20,9 +20,6 @@
 # OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 # SOFTWARE.
 
-# Set up LW library (list work)
-project(LW VERSION 1.1)
-
 ### Check is LIST_NAME variable and set special variables (use onle in make_useful_variables function before it's foreach())
 # LIST_NAME - name of list or variable
 # INCREMENTER_NAME - name of variable that will be incementer
