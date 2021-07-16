@@ -52,11 +52,11 @@ function(prepare_incrementer LIST_NAME INCREMENTER_NAME LENGTH_NAME BOOL_NAME AC
 endfunction()
 
 ### Check is OBJ_BOOL false and if it is set actual object, increment variable and check is inctrementer too large (use onle in make_useful_variables function in it's foreach())
-# OBJ_BOOL - 
-# LIST_NAME - 
-# LIST_LENGHT - 
-# OBJ_NUM - 
-# ACTUAL_OBJ - 
+# OBJ_BOOL - whether variable is list
+# LIST_NAME - name of list you want to check
+# LIST_LENGHT - lenght of list you want ot check
+# OBJ_NUM - something like list iterator
+# ACTUAL_OBJ - current object
 function(check_is_variable_not_list OBJ_BOOL LIST_NAME LIST_LENGHT OBJ_NUM ACTUAL_OBJ)
 
 	# Check is OBJ_BOOL 
