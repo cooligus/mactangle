@@ -20,16 +20,16 @@ From start of path get out squares that if they reach end of path take you a hea
 
 ## Libs
 Project is created with:
-* [SFML](https://www.sfml-dev.org/)
-* [JSON](https://github.com/nlohmann/json/)
-* [HitboxBuilder](https://github.com/Tastyep/HitboxBuilder-2D)
-* [SimpleCollision](https://github.com/SimpleRepos/SimpleCollision)
+* [SFML](https://github.com/SFML/SFML)
+* [Thor](https://github.com/eXpl0it3r/Thor)
 * [CNGui](https://github.com/swordfatih/CNGui/tree/1.0)
 * [imgui-sfml](https://github.com/eliasdaler/imgui-sfml)
-* [Thor](https://github.com/eXpl0it3r/Thor)
+* [HitboxBuilder](https://github.com/Tastyep/HitboxBuilder-2D)
+* [SimpleCollision](https://github.com/SimpleRepos/SimpleCollision)
+* [JSON](https://github.com/nlohmann/json/)
 	
 ## TODO
-* That game :)
+* That game :P
 
 ## License
 [GNU GENERAL PUBLIC LICENSE](LICENSE.md)
