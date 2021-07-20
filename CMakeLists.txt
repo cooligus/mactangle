@@ -183,7 +183,7 @@ target_link_libraries(Mactangle PUBLIC sfml-system sfml-window sfml-graphics sfm
 list(APPEND CMAKE_MODULE_PATH "${PROJECT_SOURCE_DIR}/cmake")
   
 # Add LW subdirectory for install_stuffs cmake function
-include(LW)
+include(InstallStuffs)
 
 # Use install_stuffs() function for textures
 install_stuffs(TEXTURES NAMES_OF_TEXTURES ${TEXTURES_DIR} ${TEXTURES_INSTALL_DIR} ${TEXTURES_PROGRAM_DIR} ${TEXTURES_EXT})
