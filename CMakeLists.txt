@@ -1,23 +1,13 @@
 ﻿# This file is part of Mactangle.
-# 
-# Mactangle is free software : you can redistribute it and /or modify
-# it under the terms of the GNU General Public License as published by
-# the Free Software Foundation, either version 3 of the License, or
-# (at your option) any later version.
-# 
-# Mactangle is distributed in the hope that it will be useful,
-# but WITHOUT ANY WARRANTY; without even the implied warranty of
-# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.See the
-# GNU General Public License for more details.
-# 
-# You should have received a copy of the GNU General Public License
-# along with Mactangle. If not, see < https://www.gnu.org/licenses/>.
+# Mactangle is free software distributed under Mozilla Public License Version 2.0.
+# You should have received a copy of the Mozilla Public License 
+# along with Mactangle. If not, see <https://www.mozilla.org/en-US/MPL/2.0/>.
 
 # Set minimum version of cmake
 cmake_minimum_required (VERSION 3.17)
 
 # Set up project
-project(Mactangle VERSION 1.1.1.03)
+project(Mactangle VERSION 1.1.1.04)
 
 # Add definitions
 add_definitions(-DPATH_OBJ_NAME="path")
@@ -156,10 +146,10 @@ include_directories(SYSTEM "${SFML_PATH}/${INCLUDE_STR}")
 
 
 # Add hitbox builder
-#add_subdirectory(${HITBOX_PATH})
+add_subdirectory(${HITBOX_PATH})
 
 # Add hitbox builder .hpp files
-#include_directories(SYSTEM "${HITBOX_PATH}/${INCLUDE_STR}")
+include_directories(SYSTEM "${HITBOX_PATH}/${INCLUDE_STR}")
 
 
 # Add SimpleCollision
