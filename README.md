@@ -1,6 +1,5 @@
 <h1 align="center">Mactangle</h1>
-<center><img src="./rc/textures/Mactangle.png" alt=""/></center>
-<h4 align="center">There you will have to defend the END OF PATH from deadly squares that have mathematicals operations on them.</h2>
+<font align="center">There you will have to defend the END OF PATH from deadly squares that have mathematicals operations on them.</font>
 
 ## Version
 1.1.1
