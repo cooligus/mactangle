@@ -110,7 +110,6 @@ set(READMES_EXT "md")
 
 # Set names of readmes (All readmes have to be .md files)
 set(NAMES_OF_READMES
-	"LICENSE"
 	"TexturesInstruction"
 	)
 
@@ -186,6 +185,11 @@ install_stuffs(FONTS NAMES_OF_FONTS ${FONTS_DIR} ${FONTS_INSTALL_DIR} ${FONTS_PR
 # Use install_stuffs() function for readmes
 install_stuffs(READMES NAMES_OF_READMES ${READMES_DIR} READMES_INSTALL_DIRS READMES_PROGRAM_DIRS ${READMES_EXT})
 
+# Install license
+install(FILES "${PROJECT_SOURCE_DIR}/LICENSE.md" 
+	DESTINATION "bin"
+	)
+			 
 # Install Mactangle
 install(TARGETS Mactangle DESTINATION bin)
 install(TARGETS Mactangle
