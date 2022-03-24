@@ -1,4 +1,4 @@
-<h1><center>Mactangle</center></h1>
+<h1 align="center">Mactangle</h1>
 There you will have to defend the END OF PATH from deadly squares that have mathematicals operations on them.
 
 
