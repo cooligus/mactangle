@@ -1,8 +1,6 @@
 <div style="display: flex; flex-direction: row; flex-wrap: nowrap; align-items: middle;">
       <img src="./rc/textures/Mactangle.png" style="width: 3rem" />
-      <font size="5" style="margin-left: 1rem; margin-right: 1rem; font-size: 3rem">
-        Mactangle
-      </font>
+      <font size="6"> This is my text number 6</font>
       <img src="./rc/textures/Mactangle.png" style="width: 3rem" />
 </div>
 There you will have to defend the END OF PATH from deadly squares that have mathematicals operations on them.
