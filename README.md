@@ -1,9 +1,4 @@
-<h1 align="center">Mactangle</h1>
-
-<img src="./rc/textures/Mactangle.png" alt="" size="3"/>
-<img src="./rc/textures/Mactangle.png" alt="" size="3"/>
-<img src="./rc/textures/Mactangle.png" alt="" size="3"/>
-
+<h1 align="center">Mactangle<img src="./rc/textures/Mactangle.png" alt=""/></h1>
 <h4 align="center">There you will have to defend the END OF PATH from deadly squares that have mathematicals operations on them.</h2>
 
 ## Version
