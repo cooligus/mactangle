@@ -90,7 +90,7 @@ void Map::pathConfigure()
 {
 	Vector2f path_position = Vector2f(path_position_x, path_position_y);
 
-	//path_texture.loadFromFile("../textures/Path.png");
+	path_texture.loadFromFile("../textures/Path.png");
 	path_texture.setSmooth(true);
 
 	path.push_back(Sprite());
