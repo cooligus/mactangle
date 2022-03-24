@@ -1,4 +1,4 @@
-#include "Additionals.h"
+#include "additionals.h"
 
 using namespace sf;
 using namespace std;

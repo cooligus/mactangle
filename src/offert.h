@@ -1,6 +1,6 @@
 #pragma once
 
-#include "MainClasses.h"
+#include "mainclasses.h"
 #include "shop.h"
 
 using namespace sf;

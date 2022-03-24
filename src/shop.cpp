@@ -2,9 +2,9 @@
 #include <vector>
 #include <string>
 #include <iostream>
-#include "MainClasses.h"
-#include "Map.h"
-#include "Shop.h"
+#include "mainclasses.h"
+#include "map.h"
+#include "shop.h"
 #include "PPSaB.h"
 
 using namespace sf;

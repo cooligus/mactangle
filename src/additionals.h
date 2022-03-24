@@ -1,6 +1,6 @@
 #pragma once
 
-#include "Shop.h"
+#include "shop.h"
 
 using namespace sf;
 using namespace std;

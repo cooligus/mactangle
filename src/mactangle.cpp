@@ -1,4 +1,4 @@
-#include "Mactangle.h"
+#include "mactangle.h"
 
 using namespace sf;
 using namespace std;

@@ -2,8 +2,8 @@
 #include <vector>
 #include <string>
 #include <iostream>
-#include "MainClasses.h"
-#include "Offert.h"
+#include "mainclasses.h"
+#include "offert.h"
 #include "PPSaB.h"
 
 using namespace sf;

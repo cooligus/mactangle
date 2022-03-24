@@ -1,8 +1,8 @@
 #pragma once
 
-#include "MainClasses.h"
+#include "mainclasses.h"
 #include "map.h"
-#include "ppsab.h"
+#include "PPSaB.h"
 #include "mactangle.h"
 #include "dacler.h"
 #include "bedler.h"

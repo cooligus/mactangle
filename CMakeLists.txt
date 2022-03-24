@@ -5,6 +5,7 @@
 
 # Set minimum version of cmake
 cmake_minimum_required (VERSION 3.17)
+cmake_policy(SET CMP0054 NEW)
 
 # Set up project
 project(Mactangle VERSION 1.1.1.04)
@@ -112,16 +113,19 @@ set(NAMES_OF_READMES
 	"LICENSE"
 	"TexturesInstruction"
 	)
-	
-
-message(${TEXTURES_DIR})
 
 # Add source to executable
-add_executable (Mactangle WIN32
-				"${SOURCE_DIR}/Game.cpp"
-				"${SOURCE_DIR}/Main.cpp"
-				"${SOURCE_DIR}/Path.cpp"
-				"${SOURCE_DIR}/Map.cpp"
+add_executable (Mactangle
+				"${SOURCE_DIR}/additionals.cpp"
+				"${SOURCE_DIR}/bedler.cpp"
+				"${SOURCE_DIR}/dacler.cpp"
+				"${SOURCE_DIR}/mactangle.cpp"
+				"${SOURCE_DIR}/main.cpp"
+				"${SOURCE_DIR}/mainclasses.cpp"
+				"${SOURCE_DIR}/map.cpp"
+				"${SOURCE_DIR}/offert.cpp"
+				"${SOURCE_DIR}/shop.cpp"
+				"${SOURCE_DIR}/PPSaB.cpp"
 				"${RESOURCES_DIR}/icon/icon.rc"
 				  )
 
@@ -130,44 +134,39 @@ add_executable (Mactangle WIN32
 set(INCLUDE_STR "include")
 set(SINGLE_INCLUDE_STR "single-include")
 
+include(FetchContent)
 
-# Set variable with paths to libs
-set(SFML_PATH "${LIBS_DIR}/SFML-2.5.1")
-set(HITBOX_PATH "${LIBS_DIR}/HitboxBuilder-2D")
-set(JSON_PATH "${LIBS_DIR}/json")
-set(COLLISION_PATH "${LIBS_DIR}/SimpleCollision")
+FetchContent_Declare(
+	sfml
+	GIT_REPOSITORY https://github.com/SFML/SFML.git 
+	GIT_TAG 2f11710abc5aa478503a7ff3f9e654bd2078ebab
+	SOURCE_DIR 
+)
 
+#
+#   ITS HERE
+# =========================
 
-# Add SFML subdirectory
-add_subdirectory(${SFML_PATH})
+FetchContent_GetProperties(sfml)
+if(NOT sfml_POPULATED)
+  # Fetch the content using previously declared details
+  FetchContent_Populate(sfml)
 
-# Add SFML .hpp files
-include_directories(SYSTEM "${SFML_PATH}/${INCLUDE_STR}")
+  # Set custom variables, policies, etc.
+  # ...
 
+  # Bring the populated content into the build
+  add_subdirectory(${sfml_SOURCE_DIR} ${sfml_BINARY_DIR})
+endif()
 
-# Add hitbox builder
-add_subdirectory(${HITBOX_PATH})
-
-# Add hitbox builder .hpp files
-include_directories(SYSTEM "${HITBOX_PATH}/${INCLUDE_STR}")
-
-
-# Add SimpleCollision
-add_library(collision OBJECT "${COLLISION_PATH}/simpleCollision.cpp")
-
-# Add SimpleCollision .h file
-include_directories(SYSTEM "${COLLISION_PATH}/")
-
-
-# Add JSON subdirectory
-add_subdirectory(${JSON_PATH})
+#FetchContent_MakeAvailable(uses_other)
 
 # Add json .h files
-include_directories(SYSTEM "${JSON_PATH}/${INCLUDE_STR}")
+#include_directories(SYSTEM "${JSON_PATH}/${INCLUDE_STR}")
 
 
 # Link libs with mactangle
-target_link_libraries(Mactangle PUBLIC sfml-system sfml-window sfml-graphics sfml-network sfml-audio nlohmann_json::nlohmann_json)
+target_link_libraries(Mactangle PUBLIC sfml-system sfml-window sfml-graphics sfml-network sfml-audio )
  
 # Add local cmake subdirectory to CMAKE_MODULE_PATH
 list(APPEND CMAKE_MODULE_PATH "${PROJECT_SOURCE_DIR}/cmake")

@@ -3,10 +3,10 @@
 #include <string>
 #include <iostream>
 #include "PPSaB.h"
-#include "Dacler.h"
-#include "Shop.h"
-#include "Map.h"
-#include "MainClasses.h"
+#include "dacler.h"
+#include "shop.h"
+#include "map.h"
+#include "mainclasses.h"
 
 using namespace sf;
 using namespace std;

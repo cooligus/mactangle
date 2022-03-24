@@ -4,11 +4,11 @@
 #include <iostream>
 #include <math.h>
 #include "PPSaB.h"
-#include "Bedler.h"
-#include "Shop.h"
-#include "Map.h"
-#include "Mactangle.h"
-#include "MainClasses.h"
+#include "bedler.h"
+#include "shop.h"
+#include "map.h"
+#include "mactangle.h"
+#include "mainclasses.h"
 
 using namespace sf;
 using namespace std;
