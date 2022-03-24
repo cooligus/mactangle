@@ -1,8 +1,9 @@
-<div style="margin: auto; width: fit-content;">
-  <img src="./rc/textures/Mactangle.png" alt="" width="50rem" height="55rem"/>
-  <img src="./rc/textures/Mactangle.png" alt="" width="50rem" height="55rem"/>
-  <img src="./rc/textures/Mactangle.png" alt="" width="50rem" height="55rem"/>
-  <h1 style="font-style: bold; font-size: 3em; margin: 1rem">Mactangle</h1>
+<div style="display: flex; flex-direction: row; flex-wrap: nowrap">
+      <img src="./rc/textures/Mactangle.png" style="width: 3rem" />
+      <span style="margin-left: 1rem; margin-right: 1rem; font-size: 3rem">
+        Mactangle
+      </span>
+      <img src="./rc/textures/Mactangle.png" style="width: 3rem" />
 </div>
 There you will have to defend the END OF PATH from deadly squares that have mathematicals operations on them.
 
