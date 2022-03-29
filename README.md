@@ -1,6 +1,8 @@
 <h1 align="center">Mactangle</h1>
 <center>There you will have to defend the END OF PATH from deadly squares that have mathematicals operations on them.</center>
 
+### PLEASE DON'T READ CODE
+It hurts how I written it 🤕.
 
 ## Version
 1.1.1
@@ -9,7 +11,7 @@
 - [Version](#version)
 - [Table of contents](#table-of-contents)
 - [General info](#general-info)
-- [Installation instructions](#install)
+- [Install](#install)
 - [Screenshots](#screenshots)
 - [Libs](#libs)
 - [License](#license)
