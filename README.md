@@ -2,7 +2,7 @@
 <center>There you will have to defend the END OF PATH from deadly squares that have mathematicals operations on them.</center>
 
 ### PLEASE DON'T READ CODE
-It hurts how I written it 🤕.
+It hurts how I've written it 🤕.
 
 ## Version
 1.1.1
