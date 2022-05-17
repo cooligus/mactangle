@@ -23,9 +23,9 @@ Dacler::Dacler()
 	this->setScale(0, 0);
 }
 void Dacler::nowCanBeSetted()
-	{
-		holding = true;
-	}
+{
+	holding = true;
+}
 void Dacler::setSomething(MainClass& object)
 {
 	button.setSomething(300, 300, object.m_window, object.m_camera);

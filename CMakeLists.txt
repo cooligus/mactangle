@@ -128,37 +128,12 @@ add_executable (Mactangle
 				"${RESOURCES_DIR}/icon/icon.rc"
 				  )
 
-
 # Set global include string s
 set(INCLUDE_STR "include")
 set(SINGLE_INCLUDE_STR "single-include")
 
-include(FetchContent)
+include(${CMAKE_CURRENT_SOURCE_DIR}/cmake/FindSFML.cmake)
 
-FetchContent_Declare(
-	sfml
-	GIT_REPOSITORY https://github.com/SFML/SFML.git 
-	GIT_TAG 2f11710abc5aa478503a7ff3f9e654bd2078ebab
-	SOURCE_DIR 
-)
-
-#
-#   ITS HERE
-# =========================
-
-FetchContent_GetProperties(sfml)
-if(NOT sfml_POPULATED)
-  # Fetch the content using previously declared details
-  FetchContent_Populate(sfml)
-
-  # Set custom variables, policies, etc.
-  # ...
-
-  # Bring the populated content into the build
-  add_subdirectory(${sfml_SOURCE_DIR} ${sfml_BINARY_DIR})
-endif()
-
-#FetchContent_MakeAvailable(uses_other)
 
 # Add json .h files
 #include_directories(SYSTEM "${JSON_PATH}/${INCLUDE_STR}")
