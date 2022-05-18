@@ -217,54 +217,54 @@ void Bedler::writeResult(MainClass& main, vector<Mactangle>& mactangles)
 	{
 		while (main.m_window.pollEvent(eventus))
 		{
-			if (result_text.getSize() < 5)
+			if (result_text.getSize() < 5 && touch_counter == 0)
 			{
-				if (touch_counter == 0 && Keyboard::isKeyPressed(Keyboard::Num0) || Keyboard::isKeyPressed(Keyboard::Numpad0) && touch_counter == 0)
+				if (Keyboard::isKeyPressed(Keyboard::Num0) || Keyboard::isKeyPressed(Keyboard::Numpad0))
 				{
 					result_text += "0";
 					touch_counter++;
 				}
-				if (touch_counter == 0 && Keyboard::isKeyPressed(Keyboard::Num1) || Keyboard::isKeyPressed(Keyboard::Numpad1) && touch_counter == 0)
+				if (Keyboard::isKeyPressed(Keyboard::Num1) || Keyboard::isKeyPressed(Keyboard::Numpad1))
 				{
 					result_text += "1";
 					touch_counter++;
 				}
-				if (touch_counter == 0 && Keyboard::isKeyPressed(Keyboard::Num2) || Keyboard::isKeyPressed(Keyboard::Numpad2) && touch_counter == 0)
+				if (Keyboard::isKeyPressed(Keyboard::Num2) || Keyboard::isKeyPressed(Keyboard::Numpad2))
 				{
 					result_text += "2";
 					touch_counter++;
 				}
-				if (touch_counter == 0 && Keyboard::isKeyPressed(Keyboard::Num3) || Keyboard::isKeyPressed(Keyboard::Numpad3) && touch_counter == 0)
+				if (Keyboard::isKeyPressed(Keyboard::Num3) || Keyboard::isKeyPressed(Keyboard::Numpad3))
 				{
 					result_text += "3"; 
 					touch_counter++;
 				}
-				if (touch_counter == 0 && Keyboard::isKeyPressed(Keyboard::Num4) || Keyboard::isKeyPressed(Keyboard::Numpad4) && touch_counter == 0)
+				if (Keyboard::isKeyPressed(Keyboard::Num4) || Keyboard::isKeyPressed(Keyboard::Numpad4))
 				{
 					result_text += "4";
 					touch_counter++;
 				}
-				if (touch_counter == 0 && Keyboard::isKeyPressed(Keyboard::Num5) || Keyboard::isKeyPressed(Keyboard::Numpad5) && touch_counter == 0)
+				if (Keyboard::isKeyPressed(Keyboard::Num5) || Keyboard::isKeyPressed(Keyboard::Numpad5)) 
 				{
 					result_text += "5";
 					touch_counter++;
 				}
-				if (touch_counter == 0 && Keyboard::isKeyPressed(Keyboard::Num6) || Keyboard::isKeyPressed(Keyboard::Numpad6) && touch_counter == 0)
+				if (Keyboard::isKeyPressed(Keyboard::Num6) || Keyboard::isKeyPressed(Keyboard::Numpad6)) 
 				{
 					result_text += "6";
 					touch_counter++;
 				}
-				if (touch_counter == 0 && Keyboard::isKeyPressed(Keyboard::Num7) || Keyboard::isKeyPressed(Keyboard::Numpad7) && touch_counter == 0)
+				if (Keyboard::isKeyPressed(Keyboard::Num7) || Keyboard::isKeyPressed(Keyboard::Numpad7))
 				{
 					result_text += "7";
 					touch_counter++;
 				}
-				if (touch_counter == 0 && Keyboard::isKeyPressed(Keyboard::Num8) || Keyboard::isKeyPressed(Keyboard::Numpad8) && touch_counter == 0)
+				if (Keyboard::isKeyPressed(Keyboard::Num8) || Keyboard::isKeyPressed(Keyboard::Numpad8))
 				{
 					result_text += "8";
 					touch_counter++;
 				}
-				if (touch_counter == 0 && Keyboard::isKeyPressed(Keyboard::Num9) || Keyboard::isKeyPressed(Keyboard::Numpad9) && touch_counter == 0)
+				if (Keyboard::isKeyPressed(Keyboard::Num9) || Keyboard::isKeyPressed(Keyboard::Numpad9))
 				{
 					result_text += "9";
 					touch_counter++;
