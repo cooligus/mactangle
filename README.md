@@ -1,5 +1,5 @@
-<h1 align="center">Mactangle</h1>
-<center>There you will have to defend the END OF PATH from deadly squares that have mathematicals operations on them.</center>
+# Mactangle
+There you will have to defend the END OF PATH from deadly squares that have mathematicals operations on them.
 
 ### PLEASE DON'T READ CODE
 It hurts how I've written it 🤕.
