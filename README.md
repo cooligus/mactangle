@@ -1,9 +1,6 @@
 # Mactangle
 There you will have to defend the END OF PATH from deadly squares that have mathematicals operations on them.
 
-### PLEASE DON'T READ CODE
-It hurts how I've written it 🤕.
-
 ## Version
 1.1.1
 
