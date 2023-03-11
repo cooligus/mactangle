@@ -16,6 +16,12 @@ There you will have to defend the END OF PATH from deadly squares that have math
 ## General info
 From start of path get out squares that if they reach end of path take you a heart (default you have three ones). To destroy them you can use two stuffs. First (bedler) you can place everywhere and if you write to it value that equal with mathematical operation on whichever mactangle is, you will destroy it. Second one costs (default) 300 MCoins and them you can place only on path and when any of squares will get on it, one will be destroyed.   
 
+## Screenshots
+![Main Menu](./rc/screenshots/MainMenu.png)
+![Shop](./rc/screenshots/Shop.png)
+![Game1](./rc/screenshots/Game1.png)
+![Game2](./rc/screenshots/Game2.png)
+
 ## Install
 If you don't use IDE like CLion or Visual Studio you need to build and compile Mactangle via terminal.
 1. Clone the repository
@@ -30,12 +36,6 @@ If you don't use IDE like CLion or Visual Studio you need to build and compile M
 `cd build`
 6. Install the game 
 `sudo make install`
-
-## Screenshots
-![Main Menu](./rc/screenshots/MainMenu.png)
-![Shop](./rc/screenshots/Shop.png)
-![Game1](./rc/screenshots/Game1.png)
-![Game2](./rc/screenshots/Game2.png)
 
 ## Libs
 Project is created with:
