@@ -37,9 +37,5 @@ If you don't use IDE like CLion or Visual Studio you need to build and compile M
 6. Install the game 
 `sudo make install`
 
-## Libs
-Project is created with:
-* [SFML](https://github.com/SFML/SFML)
-	
 ## License
 [Mozilla Public License](LICENSE.md)
