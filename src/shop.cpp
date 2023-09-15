@@ -41,7 +41,7 @@ Shop::Shop(MainClass& main, Map map)
 }
 void Shop::shopConfigure(MainClass& main)
 {
-	shop_texture.loadFromFile("../textures/Shop.png");
+	shop_texture.loadFromFile(SHOP_PNG);
 	shop_texture.setSmooth(true);
 
 	shop.setTexture(shop_texture);
@@ -52,7 +52,7 @@ void Shop::shopConfigure(MainClass& main)
 }
 void Shop::cartConfigure()
 {
-	cart_texture.loadFromFile("../textures/Cart.png");
+	cart_texture.loadFromFile(CART_PNG);
 	cart_texture.setSmooth(true);
 
 	cart.setTexture(cart_texture);
@@ -63,7 +63,7 @@ void Shop::cartConfigure()
 }
 void Shop::sharpConfigure()
 {
-	sharp_texture.loadFromFile("../textures/Sharp.png");
+	sharp_texture.loadFromFile(SHARP_PNG);
 	sharp_texture.setSmooth(true);
 
 	sharp.setTexture(sharp_texture);

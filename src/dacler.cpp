@@ -13,7 +13,7 @@ using namespace std;
 
 Dacler::Dacler()
 {
-	dacler_texture.loadFromFile("../textures/Dacler.png");
+	dacler_texture.loadFromFile(DACLER_PNG);
 	dacler_texture.setSmooth(true);
 
 	this->setTexture(dacler_texture);

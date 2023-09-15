@@ -5,7 +5,7 @@ using namespace std;
 
 Mactangle::Mactangle(Map& map, MainClass& main)
 {
-	mactangle_texture.loadFromFile("../textures/Mactangle.png");
+	mactangle_texture.loadFromFile(MACTANGLE_PNG);
 	mactangle_texture.setSmooth(true);
 
 	this->setTexture(mactangle_texture);

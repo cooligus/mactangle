@@ -15,7 +15,7 @@ using namespace std;
 
 Bedler::Bedler(MainClass& main)
 {
-	bedler_texture.loadFromFile("../textures/Bedler.png");
+	bedler_texture.loadFromFile(BEDLER_PNG);
 	bedler_texture.setSmooth(true);
 
 	this->setTexture(bedler_texture);

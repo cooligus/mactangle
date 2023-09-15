@@ -37,7 +37,7 @@ void Offert::offertConfigure(Sprite like_offert, Texture texture, float scale)
 }
 void Offert::buttonConfigure(float scale)
 {
-	button_texture.loadFromFile("../textures/BuyButton.png");
+	button_texture.loadFromFile(BUYBUTTON_PNG);
 	button_texture.setSmooth(true);
 
 	button.setTexture(button_texture);
@@ -48,7 +48,7 @@ void Offert::buttonConfigure(float scale)
 }
 void Offert::coinConfigure(float scale)
 {
-	coin_texture.loadFromFile("../textures/Coin.png");
+	coin_texture.loadFromFile(COIN_PNG);
 	coin_texture.setRepeated(2);
 
 	coin.setTexture(coin_texture);

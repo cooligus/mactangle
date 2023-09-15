@@ -5,7 +5,7 @@
 MainClass::MainClass()
 	:m_windowSizeX(3840.f), m_windowSizeY(2160.f), m_gameRuning(false), m_camera(), m_window(sf::VideoMode().getDesktopMode(), "Mactangle", sf::Style::Fullscreen), m_font()
 {
-	m_font.loadFromFile("../fonts/CubicCoreMono.ttf");
+	m_font.loadFromFile(CUBICCOREMONO_TTF);
 
 	m_window.setVisible(true);
 	m_window.setVerticalSyncEnabled(true);

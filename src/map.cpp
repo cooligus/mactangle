@@ -25,7 +25,7 @@ Map::Map()
 }
 void Map::backgroundConfigure()
 {	
-	background_texture.loadFromFile("../textures/Background.png");
+	background_texture.loadFromFile(BACKGROUND_PNG);
 	background_texture.setSmooth(true);
 
 	background.setTexture(background_texture);

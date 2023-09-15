@@ -9,7 +9,7 @@ Addidtionals::Addidtionals(MainClass& main)
 	animation_speed = 5;
 	going_down = true;
 
-	firstscreen_texture.loadFromFile("../textures/Firstscreen.png");
+	firstscreen_texture.loadFromFile(FIRSTSCREEN_PNG);
 	firstscreen_texture.setSmooth(true);
 
 	firstscreen.setTexture(firstscreen_texture);
@@ -32,7 +32,7 @@ Addidtionals::Addidtionals(MainClass& main)
 }
 void Addidtionals::moneyConfigure(MainClass& main)
 {
-	coin_texture.loadFromFile("../textures/Coin.png");
+	coin_texture.loadFromFile(COIN_PNG);
 	coin_texture.setSmooth(true);
 
 	coin.setTexture(coin_texture);
@@ -53,7 +53,7 @@ void Addidtionals::moneyConfigure(MainClass& main)
 }
 void Addidtionals::heartsConfigure(MainClass& main, int count)
 {
-	heart_texture.loadFromFile("../textures/Heart.png");
+	heart_texture.loadFromFile(HEART_PNG);
 
 	for (int i = 1; i <= count; i++)
 	{
