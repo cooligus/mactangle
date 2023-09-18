@@ -4,7 +4,7 @@
 # along with Mactangle. If not, see <https://www.mozilla.org/en-US/MPL/2.0/>.
 
 # Set minimum version of cmake
-cmake_minimum_required (VERSION 3.17)
+cmake_minimum_required(VERSION 3.17)
 cmake_policy(SET CMP0054 NEW)
 
 # Set up project
@@ -22,22 +22,22 @@ set(TEXTURES_INSTALL_DIR "textures")
 set(TEXTURES_PROGRAM_DIR "./textures")
 set(TEXTURES_EXT "png")
 set(NAMES_OF_TEXTURES
-	"Background" 
-	"Bedler"
-	"BuyButton"
-	"Cart"
-	"Cartt"
-	"Coin"
-	"Dacler"
-	"FirstScreen"
-	"Heart"
-	"Mactangle"
-	"Menu"
-	"Path"
-	"Sharp"
-	"Sharpp"
-	"Shop"
-	)
+        "Background"
+        "Bedler"
+        "BuyButton"
+        "Cart"
+        "Cartt"
+        "Coin"
+        "Dacler"
+        "FirstScreen"
+        "Heart"
+        "Mactangle"
+        "Menu"
+        "Path"
+        "Sharp"
+        "Sharpp"
+        "Shop"
+)
 
 ### Set fonts's stuffs
 # Set where fonts are
@@ -46,33 +46,37 @@ set(FONTS_INSTALL_DIR "fonts")
 set(FONTS_PROGRAM_DIR "./fonts")
 set(FONTS_EXT "ttf")
 set(NAMES_OF_FONTS
-	"CubicCoreMono"
-	)
+        "CubicCoreMono"
+)
 
 # Add source to executable
-add_executable (Mactangle
-				"${SOURCE_DIR}/additionals.cpp"
-				"${SOURCE_DIR}/bedler.cpp"
-				"${SOURCE_DIR}/dacler.cpp"
-				"${SOURCE_DIR}/mactangle.cpp"
-				"${SOURCE_DIR}/main.cpp"
-				"${SOURCE_DIR}/mainclasses.cpp"
-				"${SOURCE_DIR}/map.cpp"
-				"${SOURCE_DIR}/offert.cpp"
-				"${SOURCE_DIR}/shop.cpp"
-				"${SOURCE_DIR}/PPSaB.cpp"
-				"${RESOURCES_DIR}/icon/icon.rc"
-				  )
+add_executable(Mactangle
+        "${SOURCE_DIR}/additionals.cpp"
+        "${SOURCE_DIR}/bedler.cpp"
+        "${SOURCE_DIR}/dacler.cpp"
+        "${SOURCE_DIR}/mactangle.cpp"
+        "${SOURCE_DIR}/main.cpp"
+        "${SOURCE_DIR}/mainclasses.cpp"
+        "${SOURCE_DIR}/map.cpp"
+        "${SOURCE_DIR}/offert.cpp"
+        "${SOURCE_DIR}/shop.cpp"
+        "${SOURCE_DIR}/PPSaB.cpp"
+        "${SOURCE_DIR}/MainWindow.cpp"
+        "${SOURCE_DIR}/MainExecutor.cpp"
+        "${SOURCE_DIR}/InputManager.cpp"
+        "${SOURCE_DIR}/helpers/StringKey.cpp"
+        "${RESOURCES_DIR}/icon/icon.rc"
+)
 
 find_package(SFML COMPONENTS system window graphics CONFIG REQUIRED)
 
 option(LINKER_OPTIONS "Some additional linker options" "")
 # Link libs with mactangle
 target_link_libraries(Mactangle PUBLIC sfml-system sfml-window sfml-graphics sfml-network sfml-audio ${LINKER_OPTIONS})
- 
+
 # Add local cmake subdirectory to CMAKE_MODULE_PATH
 list(APPEND CMAKE_MODULE_PATH "${PROJECT_SOURCE_DIR}/cmake")
-  
+
 # Add LW subdirectory for install_stuffs cmake function
 include(InstallStuffs)
 
@@ -83,12 +87,12 @@ install_stuffs(TEXTURES NAMES_OF_TEXTURES ${TEXTURES_DIR} ${TEXTURES_INSTALL_DIR
 install_stuffs(FONTS NAMES_OF_FONTS ${FONTS_DIR} ${FONTS_INSTALL_DIR} ${FONTS_PROGRAM_DIR} ${FONTS_EXT})
 
 # Install license
-install(FILES "${PROJECT_SOURCE_DIR}/LICENSE.md" 
-	DESTINATION .
-	)
-			 
+install(FILES "${PROJECT_SOURCE_DIR}/LICENSE.md"
+        DESTINATION .
+)
+
 # Install Mactangle
 install(TARGETS Mactangle DESTINATION .)
 install(TARGETS Mactangle
-		CONFIGURATIONS Release
+        CONFIGURATIONS Release
         RUNTIME DESTINATION Release)
