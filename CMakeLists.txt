@@ -61,7 +61,6 @@ add_executable(Mactangle
         "${SOURCE_DIR}/offert.cpp"
         "${SOURCE_DIR}/shop.cpp"
         "${SOURCE_DIR}/PPSaB.cpp"
-        "${SOURCE_DIR}/MainWindow.cpp"
         "${SOURCE_DIR}/MainExecutor.cpp"
         "${SOURCE_DIR}/InputManager.cpp"
         "${SOURCE_DIR}/helpers/StringKey.cpp"
