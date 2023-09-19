@@ -15,7 +15,7 @@ set(SOURCE_DIR "${CMAKE_CURRENT_SOURCE_DIR}/src")
 set(RESOURCES_DIR "${CMAKE_CURRENT_SOURCE_DIR}/rc")
 set(LIBS_DIR "${CMAKE_CURRENT_SOURCE_DIR}/libs")
 
-### Set textures's stuffs 
+### Set textures' stuffs
 # Set where textures are
 set(TEXTURES_DIR "${RESOURCES_DIR}/textures")
 set(TEXTURES_INSTALL_DIR "textures")
@@ -26,7 +26,6 @@ set(NAMES_OF_TEXTURES
         "Bedler"
         "BuyButton"
         "Cart"
-        "Cartt"
         "Coin"
         "Dacler"
         "FirstScreen"
@@ -35,11 +34,10 @@ set(NAMES_OF_TEXTURES
         "Menu"
         "Path"
         "Sharp"
-        "Sharpp"
         "Shop"
 )
 
-### Set fonts's stuffs
+### Set fonts' stuffs
 # Set where fonts are
 set(FONTS_DIR "${RESOURCES_DIR}/fonts")
 set(FONTS_INSTALL_DIR "fonts")
@@ -63,7 +61,13 @@ add_executable(Mactangle
         "${SOURCE_DIR}/PPSaB.cpp"
         "${SOURCE_DIR}/MainExecutor.cpp"
         "${SOURCE_DIR}/InputManager.cpp"
-        "${SOURCE_DIR}/helpers/StringKey.cpp"
+        "${SOURCE_DIR}/Renderer.cpp"
+        "${SOURCE_DIR}/Master.cpp"
+        "${SOURCE_DIR}/MainResources.cpp"
+        "${SOURCE_DIR}/Helpers/StringKey.cpp"
+        "${SOURCE_DIR}/BaseClasses/Entity.cpp"
+        "${SOURCE_DIR}/BaseClasses/PositionableEntity.cpp"
+        "${SOURCE_DIR}/BaseClasses/MovingEntity.cpp"
         "${RESOURCES_DIR}/icon/icon.rc"
 )
 

@@ -3,6 +3,7 @@
 //
 
 #include "MainExecutor.h"
+#include "BaseClasses/PositionableEntity.h"
 
 MainExecutor::MainExecutor()
         : object_main(), event(), the_map(), addition(object_main), mactangle(the_map, object_main), dacler(),
@@ -19,8 +20,8 @@ void MainExecutor::start() {
     bedler_offert.setSomething(object_main);
 
     while (object_main.m_window.isOpen()) {
+        //InputManager::checkEvents();
         if (object_main.m_gameRuning) {
-            InputManager::checkEvents();
             shop.daclers.back().set(the_map, object_main);
             shop.bedlers.back().set(the_map, object_main);
             for (int i = 1; shop.daclers.size() > i; i++) {
@@ -67,7 +68,6 @@ void MainExecutor::start() {
             dacler_offert.display(shop, object_main);
             bedler_offert.display(shop, object_main);
             addition.display(shop, object_main);
-
             object_main.m_window.display();
         } else if (!object_main.m_gameRuning) {
             addition.clickToPlay(object_main);
@@ -77,7 +77,7 @@ void MainExecutor::start() {
 
             object_main.m_window.display();
         }
-        InputManager::clearKeys();
+        //InputManager::clearKeys();
     }
 
 }

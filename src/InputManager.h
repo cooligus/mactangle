@@ -9,19 +9,18 @@
 #include <SFML/Window/Event.hpp>
 #include <vector>
 #include <SFML/Graphics/RenderWindow.hpp>
+#include <SFML/Graphics/Sprite.hpp>
 
 class InputManager {
     static std::vector<sf::Keyboard::Key> m_keys;
     static sf::RenderWindow *m_window;
     static sf::Event m_event;
 public:
-    static void checkEvents();
+    void checkEvents();
 
-    static void clearKeys();
+    void clearKeys();
 
     static std::vector<sf::Keyboard::Key> getKeys();
-
-    static int m_backspaces;
 
     explicit InputManager(sf::RenderWindow *window);
 };

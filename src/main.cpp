@@ -1,8 +1,8 @@
-#include "MainExecutor.h"
+#include "Master.h"
 
 int main()
 {
-    MainExecutor executer;
-    executer.start();
+    Master master;
+    master.start();
 	return 0;
 }
