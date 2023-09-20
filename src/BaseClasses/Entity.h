@@ -9,7 +9,10 @@
 class Entity : public sf::Sprite {
     sf::Texture m_texture;
 public:
-    explicit Entity(sf::String path);
+    explicit Entity(const sf::String &path);
+
+    Entity();
+
     virtual void display();
 };
 

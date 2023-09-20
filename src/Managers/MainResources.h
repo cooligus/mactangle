@@ -17,9 +17,11 @@ class MainResources {
     static bool m_gameRunning;
 
 public:
-    MainResources();
+    MainResources(sf::Vector2f cameraSize);
+    static void startGame();
+    static void stopGame();
     static std::shared_ptr<sf::RenderWindow> getWindow();
-
+    static bool isGameRunning();
 };
 
 

@@ -10,7 +10,7 @@
 using namespace sf;
 using namespace std;
 
-Shop::Shop(MainClass& main, Map map)
+Shop::Shop(MainClass& main, OldMap map)
 {
 	money = 100;
 	sharp_stopper = 0;
@@ -204,7 +204,7 @@ void Shop::offertPressed(int value)
 		cart_can_go = false;
 		money -= value;
 	}
-void Shop::addMactangles(Map& map, MainClass& main)
+void Shop::addMactangles(OldMap& map, MainClass& main)
 {
 	mactangles_counter++;
 	if (mactangles_counter >= 300)
@@ -264,7 +264,7 @@ int Shop::getMoney()
 		return money;
 	}
 
-void Shop::working(Map& map, MainClass& main)
+void Shop::working(OldMap& map, MainClass& main)
 {
 	addMactangles(map, main);
 	shopOpening();

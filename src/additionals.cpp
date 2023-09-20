@@ -97,7 +97,7 @@ void Addidtionals::clickToPlay(MainClass& main)
 		main.m_gameRuning = true;
 	}
 }
-bool Addidtionals::takeHp(Map& map, Mactangle& object)
+bool Addidtionals::takeHp(OldMap& map, Mactangle& object)
 {
 	if (object.getPosition().x == map.getMainPosition(2).x && object.getPosition().y == map.getMainPosition(2).y)
 	{

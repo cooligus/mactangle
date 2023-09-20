@@ -12,27 +12,28 @@
 #include <memory>
 #include <SFML/Graphics/Text.hpp>
 #include <SFML/Graphics/Sprite.hpp>
-#include "BaseClasses/Entity.h"
+#include "../BaseClasses/Entity.h"
 
-constexpr int ZIndexSize = 5;
+constexpr int ZIndexSize = 6;
 
 enum ZIndex {
     Background = 0,
-    Entities = 1,
-    Particle = 2, // for posterity
-    FloatingEntities = 3,
-    Layout = 4,
+    UnderParticles = 1, // for posterity
+    Entities = 2,
+    Particles = 3, // for posterity
+    FloatingEntities = 4,
+    Layout = 5,
 };
 
 class Renderer {
-    static std::vector<std::vector<std::shared_ptr<Entity>>> m_entities;
+    static std::vector<std::vector<Entity *>> m_entities;
     static std::shared_ptr<sf::RenderWindow> m_window;
 public:
     Renderer();
 
-    static void addEntityToQueue(Entity &toDraw, ZIndex height);
+    static void registerEntity(Entity *toDraw, ZIndex height);
 
-    void render();
+    static void render();
 };
 
 

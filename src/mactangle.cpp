@@ -3,7 +3,7 @@
 using namespace sf;
 using namespace std;
 
-Mactangle::Mactangle(Map& map, MainClass& main)
+Mactangle::Mactangle(OldMap& map, MainClass& main)
 {
 	mactangle_texture.loadFromFile(MACTANGLE_PNG);
 	mactangle_texture.setSmooth(true);
@@ -94,7 +94,7 @@ void Mactangle::allTextsConfigure(MainClass& main)
 
 	//cout << result << " ";
 }
-void Mactangle::moving(Map& map)
+void Mactangle::moving(OldMap& map)
 {
 	mactangles_position_x = this->getPosition().x;
 	mactangles_position_y = this->getPosition().y;

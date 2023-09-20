@@ -8,12 +8,12 @@
 
 #include "offert.h"
 #include "additionals.h"
-#include "InputManager.h"
+#include "Managers/InputManager.h"
 
 class MainExecutor {
     MainClass object_main;
     sf::Event event;
-    Map the_map;
+    OldMap the_map;
     Addidtionals addition;
     Mactangle mactangle;
     Dacler dacler;

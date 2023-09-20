@@ -5,7 +5,7 @@
 using namespace sf;
 using namespace std;
 
-class Map
+class OldMap
 {
 	Sprite background;
 	Texture background_texture;
@@ -33,7 +33,7 @@ public:
 	vector <int> path_steps_counter;
 	vector <char> path_direction;
 
-	Map();
+	OldMap();
 	Vector2f getPathBlocksPosition(int which);
 	Vector2f getMainPosition(int i);
 	int getCountOfPathBlocks();

@@ -30,7 +30,7 @@ void Dacler::setSomething(MainClass& object)
 {
 	button.setSomething(300, 300, object.m_window, object.m_camera);
 }
-void Dacler::set(Map& map, MainClass& object)
+void Dacler::set(OldMap& map, MainClass& object)
 {
 	if (seted == false)
 	{
@@ -133,7 +133,7 @@ void Dacler::set(Map& map, MainClass& object)
 			}
 		}
 	}
-void Dacler::work(Map& map, MainClass& main)
+void Dacler::work(OldMap& map, MainClass& main)
 {
 	//this->setTexture(dacler_texture);
 }

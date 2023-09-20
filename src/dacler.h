@@ -26,7 +26,7 @@ public:
 	Dacler();
 	void nowCanBeSetted();
 	void setSomething(MainClass& object);
-	void set(Map& map, MainClass& object);
+	void set(OldMap& map, MainClass& object);
 	void textureReset();
 	void setSetted();
 
@@ -34,6 +34,6 @@ public:
 	bool canDestroy(Mactangle& test_object);
 	bool getMainBool();
 
-	void work(Map& map, MainClass& main);
+	void work(OldMap& map, MainClass& main);
 	void display(Dacler& to_draw, MainClass& object);
 };

@@ -31,7 +31,7 @@ public:
 	void doAnimation();
 	void clickToPlay(MainClass& main);
 	
-	bool takeHp(Map& map, Mactangle& object);
+	bool takeHp(OldMap& map, Mactangle& object);
 	bool gameOver();
 	void display(Shop& shop, MainClass& object);
 };

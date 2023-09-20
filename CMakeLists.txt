@@ -49,22 +49,28 @@ set(NAMES_OF_FONTS
 
 # Add source to executable
 add_executable(Mactangle
+        "${SOURCE_DIR}/main.cpp"
+
         "${SOURCE_DIR}/additionals.cpp"
         "${SOURCE_DIR}/bedler.cpp"
         "${SOURCE_DIR}/dacler.cpp"
         "${SOURCE_DIR}/mactangle.cpp"
-        "${SOURCE_DIR}/main.cpp"
         "${SOURCE_DIR}/mainclasses.cpp"
         "${SOURCE_DIR}/map.cpp"
         "${SOURCE_DIR}/offert.cpp"
         "${SOURCE_DIR}/shop.cpp"
         "${SOURCE_DIR}/PPSaB.cpp"
         "${SOURCE_DIR}/MainExecutor.cpp"
-        "${SOURCE_DIR}/InputManager.cpp"
-        "${SOURCE_DIR}/Renderer.cpp"
-        "${SOURCE_DIR}/Master.cpp"
-        "${SOURCE_DIR}/MainResources.cpp"
+
+        "${SOURCE_DIR}/Layout/Map.cpp"
+
+        "${SOURCE_DIR}/Managers/InputManager.cpp"
+        "${SOURCE_DIR}/Managers/Renderer.cpp"
+        "${SOURCE_DIR}/Managers/Master.cpp"
+        "${SOURCE_DIR}/Managers/MainResources.cpp"
+
         "${SOURCE_DIR}/Helpers/StringKey.cpp"
+
         "${SOURCE_DIR}/BaseClasses/Entity.cpp"
         "${SOURCE_DIR}/BaseClasses/PositionableEntity.cpp"
         "${SOURCE_DIR}/BaseClasses/MovingEntity.cpp"

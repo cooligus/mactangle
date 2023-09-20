@@ -13,7 +13,7 @@
 using namespace sf;
 using namespace std;
 
-#include "InputManager.h"
+#include "Managers/InputManager.h"
 #include "helpers/StringKey.h"
 
 Bedler::Bedler(MainClass &main)
@@ -45,7 +45,7 @@ void Bedler::setSomething(MainClass &object) {
     sight_button.setSomething(300, 300, object.m_window, object.m_camera);
 }
 
-void Bedler::set(Map &map, MainClass &object) {
+void Bedler::set(OldMap &map, MainClass &object) {
     if (seted == false) {
         float mouse_position_x =
                 (float) Mouse::getPosition().x / object.m_window.getSize().x * object.m_camera.getSize().x;
@@ -138,7 +138,7 @@ void Bedler::set(Map &map, MainClass &object) {
     }
 }
 
-void Bedler::work(Bedler object, Map &map, MainClass &main, vector<Mactangle> &mactangles) {
+void Bedler::work(Bedler object, OldMap &map, MainClass &main, vector<Mactangle> &mactangles) {
     this->setTexture(bedler_texture);
     this->setSomething(main);
     this->testForClick(object);

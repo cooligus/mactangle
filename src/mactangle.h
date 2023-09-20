@@ -25,9 +25,9 @@ class Mactangle : public Sprite
 
 	void allTextsConfigure(MainClass& main);
 public:
-	Mactangle(Map& map, MainClass& main);
+	Mactangle(OldMap& map, MainClass& main);
 	int getResult();
-	void moving(Map& map);
+	void moving(OldMap& map);
 	void textureReset();
 	void displaySomething(MainClass& main);
 };

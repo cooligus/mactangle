@@ -1,14 +1,13 @@
+//
+// Created by pewie on 19.09.2023.
+//
+
+#include "Map.h"
+#include "../Managers/MainResources.h"
 #include <SFML/Graphics.hpp>
-#include <vector>
-#include <string>
 #include <iostream>
-#include "mainclasses.h"
-#include "map.h"
 
-using namespace sf;
-using namespace std;
-
-OldMap::OldMap() {
+Map::Map() {
     path_block_size = 175;
     paths_block_corner = 0;
     path_blocks_counter = 0;
@@ -23,18 +22,18 @@ OldMap::OldMap() {
     pathCreate();
 }
 
-void OldMap::backgroundConfigure() {
+void Map::backgroundConfigure() {
     background_texture.loadFromFile(BACKGROUND_PNG);
     background_texture.setSmooth(true);
 
-    background.setTexture(background_texture);
-    background.setTextureRect(IntRect(0, 0, 960, 540));
-    background.setScale(4, 4);
+    this->setTexture(background_texture);
+    this->setTextureRect(sf::IntRect(0, 0, 960, 540));
+    this->setScale(4, 4);
 }
 
-void OldMap::wayConfigure() {
-    main_positions[0] = (Vector2f(-250, 1080));
-    main_positions[1] = (Vector2f(3950, 730));
+void Map::wayConfigure() {
+    main_positions[0] = (sf::Vector2f(-250, 1080));
+    main_positions[1] = (sf::Vector2f(3950, 730));
 
     path_steps_counter.push_back(1050);
     path_direction.push_back('r');
@@ -86,21 +85,21 @@ void OldMap::wayConfigure() {
     pathBlocksMultiplier();
 }
 
-void OldMap::pathConfigure() {
-    Vector2f path_position = Vector2f(path_position_x, path_position_y);
+void Map::pathConfigure() {
+    sf::Vector2f path_position = sf::Vector2f(path_position_x, path_position_y);
 
     path_texture.loadFromFile(PATH_PNG);
     path_texture.setSmooth(true);
 
     path.push_back(Sprite());
     path.back().setTexture(path_texture);
-    path.back().setTextureRect(IntRect(0, 0, 250, 250));
+    path.back().setTextureRect(sf::IntRect(0, 0, 250, 250));
     path.back().setOrigin(125, 125);
     path.back().setPosition(path_position);
     path.back().setScale(0.7, 0.7);
 }
 
-void OldMap::pathBlocksMultiplier() {
+void Map::pathBlocksMultiplier() {
     for (int i = 1; i <= path_steps_counter.size(); i++) {
         if (path_steps_counter[i - 1] >= 0)
             path_blocks_counter += path_steps_counter[i - 1] / path_block_size;
@@ -109,7 +108,7 @@ void OldMap::pathBlocksMultiplier() {
     }
 }
 
-void OldMap::pathCreate() {
+void Map::pathCreate() {
     for (int i = 1; i <= path_blocks_counter; i++) {
         if (path_steps_counter[paths_block_corner] > 0) {
             if (path_direction[paths_block_corner] == 'r' && path_axle_stop < path_steps_counter[paths_block_corner]
@@ -152,20 +151,20 @@ void OldMap::pathCreate() {
     }
 }
 
-void OldMap::display(MainClass &main) {
-    main.m_window.draw(background);
-    if (main.m_gameRuning == true) {
-        for (int i = 1; i <= path.size(); i++) {
-            main.m_window.draw(path[i - 1]);
+void Map::display() {
+    MainResources::getWindow()->draw(*this);
+    if (MainResources::isGameRunning()) {
+        for (int i = 0; i < path.size(); i++) {
+            MainResources::getWindow()->draw(path[i]);
         }
     }
 }
 
-int OldMap::getCountOfPathBlocks() {
+int Map::getCountOfPathBlocks() {
     return path.size() - 1;
 }
 
-char OldMap::getWhereIsGoingPath(int which) {
+char Map::getWhereIsGoingPath(int which) {
     which--;
 
     int second_counter = 0;
@@ -185,19 +184,10 @@ char OldMap::getWhereIsGoingPath(int which) {
         return 'y';
 }
 
-Vector2f OldMap::getPathBlocksPosition(int which) {
+sf::Vector2f Map::getPathBlocksPosition(int which) {
     return path[which].getPosition();
 }
 
-Vector2f OldMap::getMainPosition(int i) {
+sf::Vector2f Map::getMainPosition(int i) {
     return main_positions[i - 1];
 }
-/*
-vector <int> OldMap::getPathSteps()
-{
-	return getPathSteps();
-}
-vector <char> OldMap::getPathDirection()
-{
-	return getPathDirection();
-}*/

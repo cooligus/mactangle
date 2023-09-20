@@ -9,11 +9,13 @@
 #include "InputManager.h"
 #include "Renderer.h"
 #include "MainResources.h"
+#include "../Layout/Map.h"
 
 class Master {
     InputManager m_inputMgr;
-    MainResources m_window;
+    MainResources m_mainResources;
     Renderer m_renderer;
+    Map m_map;
 
 public:
     Master();

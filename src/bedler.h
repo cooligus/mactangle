@@ -40,7 +40,7 @@ public:
 
     void setSomething(MainClass &object);
 
-    void set(Map &map, MainClass &object);
+    void set(OldMap &map, MainClass &object);
 
     void writeResult(MainClass &main, vector<Mactangle> &mactangles);
 
@@ -54,7 +54,7 @@ public:
 
     bool getMainBool();
 
-    void work(Bedler object, Map &map, MainClass &main, vector<Mactangle> &mactangles);
+    void work(Bedler object, OldMap &map, MainClass &main, vector<Mactangle> &mactangles);
 
     void display(MainClass &main);
 };

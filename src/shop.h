@@ -53,10 +53,10 @@ class Shop
 	void shopReset();
 	void cartPress();
 	void sharpPress();
-	void addMactangles(Map& map, MainClass& main);
+	void addMactangles(OldMap& map, MainClass& main);
 
 public:
-	Shop(MainClass& main, Map map);
+	Shop(MainClass& main, OldMap map);
 
 	void setSomething(MainClass& main);
 	void offertPressed(int value);
@@ -65,7 +65,7 @@ public:
 	bool getCanOffertGo();
 	int getMoney();
 
-	void working(Map& map, MainClass& main);
+	void working(OldMap& map, MainClass& main);
 	void display(MainClass& main);
 	
 	vector <Mactangle> mactangles;

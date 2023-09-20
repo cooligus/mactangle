@@ -19,7 +19,7 @@ void InputManager::checkEvents() {
 }
 
 InputManager::InputManager(sf::RenderWindow *window) {
-    //m_window = window;
+    //m_mainResources = window;
 }
 
 void InputManager::clearKeys() {
