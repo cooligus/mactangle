@@ -10,15 +10,18 @@
 #include "Renderer.h"
 #include "MainResources.h"
 #include "../Layout/Map.h"
+#include "HoldingManager.h"
 
 class Master {
     InputManager m_inputMgr;
     MainResources m_mainResources;
     Renderer m_renderer;
+    HoldingManager m_holding;
     Map m_map;
 
 public:
     Master();
+
     void start();
 };
 

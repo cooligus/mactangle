@@ -7,13 +7,16 @@
 #include <SFML/System/String.hpp>
 
 class Entity : public sf::Sprite {
-    sf::Texture m_texture;
+    sf::Texture m_defaultTexture;
 public:
-    explicit Entity(const sf::String &path);
+    explicit Entity(const sf::String &path, sf::IntRect textureSizeAndOffset = sf::IntRect(0, 0, 300, 300),
+                    sf::Vector2f origin = sf::Vector2f(150, 150));
 
     Entity();
 
     virtual void display();
+
+    virtual void work();
 };
 
 

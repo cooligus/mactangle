@@ -51,16 +51,7 @@ set(NAMES_OF_FONTS
 add_executable(Mactangle
         "${SOURCE_DIR}/main.cpp"
 
-        "${SOURCE_DIR}/additionals.cpp"
-        "${SOURCE_DIR}/bedler.cpp"
-        "${SOURCE_DIR}/dacler.cpp"
-        "${SOURCE_DIR}/mactangle.cpp"
-        "${SOURCE_DIR}/mainclasses.cpp"
-        "${SOURCE_DIR}/map.cpp"
-        "${SOURCE_DIR}/offert.cpp"
-        "${SOURCE_DIR}/shop.cpp"
-        "${SOURCE_DIR}/PPSaB.cpp"
-        "${SOURCE_DIR}/MainExecutor.cpp"
+        "${SOURCE_DIR}/Protagonists/RemoteDecrypter.cpp"
 
         "${SOURCE_DIR}/Layout/Map.cpp"
 
@@ -68,6 +59,7 @@ add_executable(Mactangle
         "${SOURCE_DIR}/Managers/Renderer.cpp"
         "${SOURCE_DIR}/Managers/Master.cpp"
         "${SOURCE_DIR}/Managers/MainResources.cpp"
+        "${SOURCE_DIR}/Managers/HoldingManager.cpp"
 
         "${SOURCE_DIR}/Helpers/StringKey.cpp"
 

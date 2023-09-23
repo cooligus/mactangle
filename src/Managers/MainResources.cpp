@@ -1,5 +1,6 @@
 #include "MainResources.h"
 #include <iostream>
+#include <SFML/Window/Mouse.hpp>
 
 bool MainResources::m_gameRunning = false;
 std::shared_ptr<sf::RenderWindow> MainResources::m_window = std::make_shared<sf::RenderWindow>(
@@ -38,4 +39,12 @@ void MainResources::startGame() {
 
 void MainResources::stopGame() {
     m_gameRunning = false;
+}
+
+sf::Vector2f MainResources::getMouseRelPosition() {
+    sf::Vector2i mousePos = sf::Mouse::getPosition();
+    sf::Vector2f cameraSize = m_camera->getSize();
+    sf::Vector2u windowSize = m_window->getSize();
+    sf::Vector2f multiplier = sf::Vector2f(cameraSize.x / (float) windowSize.x, cameraSize.y / (float) windowSize.y);
+    return {(float) mousePos.x * multiplier.x, (float) mousePos.y * multiplier.y};
 }

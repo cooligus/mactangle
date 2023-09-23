@@ -7,31 +7,13 @@
 
 
 #include <SFML/Graphics/Sprite.hpp>
-#include "../PPSaB.h"
-#include "../mainclasses.h"
-#include "../map.h"
+#include "Entity.h"
 
-class PositionableEntity : public sf::Sprite, Button {
-    bool m_isSet{false};
-    bool m_holding{true};
-    sf::RenderWindow *m_window{};
-
+class PositionableEntity : public virtual Entity {
 public:
-    PositionableEntity(sf::RenderWindow *window);
-
-    void registerWindow(sf::RenderWindow *window);
-
-    void pick();
-
-    void set();
-
     virtual bool canBePlaced();
 
-    virtual void work();
-
-    virtual void display();
-
-    void setMousePos();
+    virtual void makeReadyToGo();
 };
 
 

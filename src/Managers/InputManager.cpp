@@ -3,6 +3,7 @@
 #include "MainResources.h"
 
 std::vector<sf::Keyboard::Key> InputManager::m_keys = std::vector<sf::Keyboard::Key>();
+std::vector<sf::Event::MouseButtonEvent> InputManager::m_buttonMouseEvents = std::vector<sf::Event::MouseButtonEvent>();
 sf::RenderWindow *InputManager::m_window = new sf::RenderWindow();
 sf::Event InputManager::m_event = sf::Event();
 
@@ -15,11 +16,10 @@ void InputManager::checkEvents() {
         if (m_event.type == sf::Event::KeyReleased) {
             m_keys.push_back(m_event.key.code);
         }
+        if (m_event.type == sf::Event::MouseButtonReleased) {
+            m_buttonMouseEvents.push_back(m_event.mouseButton);
+        }
     }
-}
-
-InputManager::InputManager(sf::RenderWindow *window) {
-    //m_mainResources = window;
 }
 
 void InputManager::clearKeys() {
@@ -28,4 +28,9 @@ void InputManager::clearKeys() {
 
 std::vector<sf::Keyboard::Key> InputManager::getKeys() {
     return m_keys;
+}
+
+bool InputManager::wasMouseClicked() {
+    return std::any_of(m_buttonMouseEvents.begin(), m_buttonMouseEvents.end(),
+                       [](sf::Event::MouseButtonEvent event) { return sf::Mouse::Left == event.button; });
 }

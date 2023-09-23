@@ -6,8 +6,9 @@
 #define MACTANGLE_MOVINGENTITY_H
 
 
-class MovingEntity {
+#include "Entity.h"
 
+class MovingEntity : public Entity {
 };
 
 
